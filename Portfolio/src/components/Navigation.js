@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from "react-router-dom";
 import Img_logo from '../images/logo-AFR.png';
-import { FaBars, FaTimes } from 'react-icons/fa';
-import { Button } from './Button';
+import { Button } from './Button.js';
 import { useLocation } from "react-router";
 
 var prevScrollpos = window.pageYOffset;
