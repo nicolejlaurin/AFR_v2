@@ -70,7 +70,6 @@ window.onclick = function(event) {
   <nav className='navbar' id="navbar">
       <div class="navbar-left">
          <a href="/" aria-current="page" class="w-inline-block w--current">
-         <img class="logo" src={Img_logo} href='/' alt="Image"></img>
          </a>
       </div>
       <div className='menu-icon' onClick={handleClick}>

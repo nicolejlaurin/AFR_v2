@@ -14,7 +14,7 @@ export default () => (
 
 <div class="overlay">
 		<a href="/" aria-current="page" class="w-inline-block w--current">
-         <img class="logo" src={logo_v2} href='/' alt="Image"></img>
+         <img className="logo" src={logo_v2} href='/' alt="Image"></img>
          </a>
 			<p class="animated fadeInUp"></p>
 			<Link to='/contactpage'>
