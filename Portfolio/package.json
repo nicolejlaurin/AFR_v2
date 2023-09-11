@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicolejlaurin/AFR.git"
+    "url": "git+https://github.com/nicolejlaurin/AFR_v2.git"
   },
   "author": "Nicole Laurin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nicolejlaurin/AFR/issues"
+    "url": "https://github.com/nicolejlaurin/AFR_v2/issues"
   },
-  "homepage": "affordablefoundationrepair.ca",
+  "homepage": ".",
   "browserslist": {
     "production": [
       ">0.2%",
