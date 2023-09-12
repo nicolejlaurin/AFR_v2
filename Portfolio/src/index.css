@@ -87,7 +87,6 @@ body p{
 .dropdown-content {
   display: none;
   background-color: white;
-
   position: absolute;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -112,8 +111,6 @@ body p{
     padding: 0rem 0.7rem 0.7rem 0.7rem;
     text-align: left;
     font-size: 16px;
-
-
   }
 
   .drop{
@@ -206,15 +203,35 @@ body p{
     color: black;
     font-size: 2rem;
   }
+  .dropdown {
+    position: relative;
+    display: contents;
+  }
 }
 
 
 
 @media screen and (max-width: 500px) {
+  .dropdown {
+    position: relative;
+    display: contents;
+  }
 
-	    .nav-links {
-	      font-size: 16px;
-	    }
+  .dropdown-content {
+    display: none;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content .a {
+    color: black;
+    padding: 13px 14px;
+    text-decoration: none;
+    display: block;
+  }
 }
 
 /*--------------------------LANDING PAGE--------------------------*/
@@ -374,10 +391,10 @@ body p{
   	font-size:12px;
   }
 
-.logo{
-  width: 10rem;
-  height: 10rem;
-}
+  .logo{
+    width: 10rem;
+    height: 10rem;
+  }
 }
 
 
