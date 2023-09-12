@@ -247,17 +247,20 @@ body p{
 
 }
 .overlay {
-    position:absolute;
     top:0;
     left:0;
     z-index:1;
-
+}
+.logo{
+  width: 30rem;
+  height: 30rem;
+  padding: 3rem 0 0 0;
 }
 
 .landing {
 	height:45rem;
 	width: 100%;
-	background-image: url('./images/hvac.jpeg');
+	background-image: url('./images/grey.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -305,7 +308,6 @@ body p{
 .button1 {
 	cursor:pointer;
 	border:none;
-  margin: 2rem 50px;
 	padding:0.8rem 2rem 0.8rem 2rem;
 	font-size:15px;
   width: 15rem;
@@ -313,6 +315,13 @@ body p{
   color: black;
   border: 2px solid white;
   border-radius: 1px;
+  float: right;
+
+  position:absolute;
+  right: 6rem;
+  top: 37rem;
+
+
 }
 
 .button1:hover {
@@ -1804,7 +1813,7 @@ size: 20;
   color: black;
   align-content: flex-start;
   padding: 2rem 2rem 0rem 5rem;
-	background-image: url('./images/hvac-contact.jpeg');
+	background-image: url('./images/grey.jpg');
 	height:80%;
 	width: 100%;
 	-webkit-background-size: cover;
@@ -1948,6 +1957,28 @@ fieldset {
   height:250px;
 }
 
+
+.contact-div{
+	flex-direction: column;
+	min-height: 80vh;
+	align-content: flex-start;
+	padding: 10rem 2rem 0rem 5rem;
+  background-image: url('./images/grey.jpg');
+	height:80%;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: rgb(0, 0, 0);
+}
+
+.contact-div h3{
+  color: black;
+}
 @media only screen and (max-width: 898px) {
   .contact-split{
     display:block;
@@ -1984,28 +2015,13 @@ fieldset {
 	  padding: 2rem 0 0rem 2rem;
 
 	}
+  .contact-div{
+	  min-height: 60vh;
+	  padding: 8rem 0 0rem 2rem;
+
+	}
 }
 
-.contact-div{
-	flex-direction: column;
-	min-height: 80vh;
-	align-content: flex-start;
-	padding: 10rem 2rem 0rem 5rem;
-	height:80%;
-	width: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	position: relative;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	color: rgb(0, 0, 0);
-}
-
-.contact-div h3{
-  color: black;
-}
 /*------------------------------FOOTER----------------------------*/
 
 .footer {
@@ -2631,7 +2647,17 @@ fieldset {
 
 
 .carousel-div{
-  padding: 5rem 0 0 0 ;
+  padding: 0rem 0rem 0 0% ;
+}
+
+.carousel-div h2{
+  text-align: center;
+  font-weight: 100;
+  line-height: 40px;
+  font-size: 20px;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
 }
 
 .carousel .control-dots .dot {

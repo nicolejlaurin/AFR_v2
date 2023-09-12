@@ -38,6 +38,8 @@ const CarouselPage = () => {
         <p className="legend" style={{background:'#B8DDFF', width:'30rem'}}>Basement Finishing</p>
       </div>
     </Carousel>
+
+    <h2>Let us help you safeguard your property with reliable and reasonably priced foundation repair solutions. Rely on us to lay the groundwork for your property's future!</h2>
     </div>
   );
 };
