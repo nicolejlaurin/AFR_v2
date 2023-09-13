@@ -12,28 +12,5 @@ export default () => (
 		</p>
 
 	
-		<div class="service-split" id='anchor1'>
-			<img class="service-split-img" src={Img}></img>
-			<div>
-				<h4>
-				Foundation WaterProofing
-				</h4>
-				<p>
-				Experience effective protection with our Affordable Foundation Repair basement waterproofing services. Our skilled team employs a variety of techniques, such as surface sealing, drainage system installation, waterproof coatings, and crack repairs. Safeguard your foundation from water damage and potential structural issues with our comprehensive solutions.
-				</p>
-			</div>
-		</div>
-		<div class="service-split" id='anchor2'>
-			<img class="service-split-img" src={Img}></img>
-			<div>
-				<h4>
-				Foundation WaterProofing
-				</h4>
-				<p>
-				Experience effective protection with our Affordable Foundation Repair basement waterproofing services. Our skilled team employs a variety of techniques, such as surface sealing, drainage system installation, waterproof coatings, and crack repairs. Safeguard your foundation from water damage and potential structural issues with our comprehensive solutions.
-				</p>
-			</div>
-		</div>
-
 	</div>
 );

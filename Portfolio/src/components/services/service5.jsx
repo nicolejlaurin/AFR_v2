@@ -2,7 +2,6 @@ import React from 'react';
 import Img from '../../images/underpinning.png';
 import { FaCaretRight, FaChevronRight} from 'react-icons/fa';
 
-
 export default () => (
 	<div className='section3-CN'>
 

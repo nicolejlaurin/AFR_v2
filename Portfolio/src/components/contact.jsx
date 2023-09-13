@@ -6,12 +6,7 @@ export default () => (
 		<div class="contact-split animated reveal fade-bottom">
 			<div class="contact-split-left">
 				<h3>Contact Us</h3>
-				<p className="contact-msg">We would love to hear from you.</p>
-				<div className="input-row2">
-					<div className='input-group2'>
-						<p class="top">  </p>
-					</div>
-				</div>
+				<p className="contact-msg">We would love to hear from you.</p>				
 			</div>
 	  <form
 			id="contact"
