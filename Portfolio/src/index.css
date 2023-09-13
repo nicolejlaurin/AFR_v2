@@ -1038,7 +1038,7 @@ size: 20;
 /*--------------------------Mid section --------------------------*/
 
 .Mid1 {
-  background-image: url('./images/about.png');
+  background-image: url('./images/wood.jpg');
 	height:20rem;
 	width: 100%;
 	margin-top: 7rem;
@@ -1052,6 +1052,8 @@ size: 20;
 	background-attachment: fixed;
 	color: white;
 	opacity: 0.8;
+  background-attachment: scroll !important;
+
 }
 
 .Mid1 h4 {
