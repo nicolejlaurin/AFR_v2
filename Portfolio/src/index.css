@@ -120,7 +120,7 @@ body p{
 
   .nav-links:hover {
     border-bottom: none;
-    color: #B8DDFF;
+    color: #fce300;
     transform: scale(1.1);
     transition: all 0.2s ease-out;
   }
@@ -184,7 +184,7 @@ body p{
   }
 
   .nav-links:hover {
-    color: #B8DDFF;
+    color: #fce300;
     transform: scaleY(1.1);
     transition: 0.3s;
   }
@@ -325,7 +325,7 @@ body p{
 }
 
 .button1:hover {
-  color: black;
+  color: rgb(244, 215, 0);
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -652,7 +652,7 @@ size: 20;
   text-align: left;
 	font-size: 40px;
 	font-weight: 200;
-	padding: 4rem 0rem 0rem 8rem;
+	padding: 4rem 0rem 0rem 12rem;
 	resize:none;
   margin: 0;
 }
@@ -741,7 +741,7 @@ size: 20;
   -webkit-transition: all .5s ease 0;
   transition: all 0.5s ease 0s;
   -webkit-box-shadow:0 0px 25px rgba(0, 0, 0, 0.10);
-  border-bottom: 5px solid #ede0cc;
+  border-bottom: 5px solid #fce300;
 }
 
 .service-icons{
@@ -1533,12 +1533,12 @@ size: 20;
 }
 
 .projectpage-item:hover{
-  background: #F0EFED;
+  background: #fce300;
   box-shadow: 0 0 11px rgba(33,33,33,.2);
   -webkit-transition: all .5s ease 0;
   transition: all 0.5s ease 0s;
   -webkit-box-shadow:0 0px 25px rgba(0, 0, 0, 0.10);
-  border-bottom: 5px solid #ede0cc;
+  border-bottom: 5px solid #fce300;
 }
 
 .projectpageitem img{
@@ -1634,7 +1634,7 @@ size: 20;
   -webkit-transition: all .5s ease 0;
   transition: all 0.5s ease 0s;
   -webkit-box-shadow:0 0px 25px rgba(0, 0, 0, 0.10);
-  border-bottom: 5px solid #ede0cc;
+  border-bottom: 5px solid #fce300;
 }
 
 .portfolio-container {
@@ -1919,7 +1919,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-	background:#ede0cc;
+	background:#fce300;
   color: black;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
@@ -2643,17 +2643,17 @@ fieldset {
 
 
 .carousel-div{
-  padding: 0rem 0rem 0 0% ;
+  padding: 4rem 6rem 0 6rem ;
 }
 
 .carousel-div h2{
   text-align: center;
   font-weight: 100;
   line-height: 40px;
-  font-size: 20px;
+  font-size: 25px;
   margin: auto;
   width: 80%;
-  padding: 10px;
+  padding: 1rem 1rem 4rem 1rem ;
 }
 
 .carousel .control-dots .dot {

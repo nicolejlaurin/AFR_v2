@@ -12,6 +12,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const CarouselPage = () => {
   return ( 
     <div className='carousel-div'>
+          <h2>Let us help you safeguard your property with reliable and reasonably priced foundation repair solutions. Rely on us to lay the groundwork for your property's future!</h2>
+
     <Carousel>
       <div >
         <img src={Img4} />
@@ -39,7 +41,6 @@ const CarouselPage = () => {
       </div>
     </Carousel>
 
-    <h2>Let us help you safeguard your property with reliable and reasonably priced foundation repair solutions. Rely on us to lay the groundwork for your property's future!</h2>
     </div>
   );
 };
