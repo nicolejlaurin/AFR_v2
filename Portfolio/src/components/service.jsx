@@ -20,7 +20,7 @@ export default () => (
     <div class="item pre animated reveal fade-bottom"> <span class="icon feature_box_col_one"></span>
 		<img src={Img1} alt=""></img>
 		<p>Keep your home safe and dry with our expert interior waterproofing solutions, guarding against moisture and leaks to protect your property.</p>
-    </div>
+	</div>
 		</div>
 		<div class="inner-container">
 		<h4>Crack Repair</h4>

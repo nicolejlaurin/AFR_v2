@@ -120,7 +120,7 @@ body p{
 
   .nav-links:hover {
     border-bottom: none;
-    color: #fce300;
+    color: #f6e176;
     transform: scale(1.1);
     transition: all 0.2s ease-out;
   }
@@ -184,7 +184,7 @@ body p{
   }
 
   .nav-links:hover {
-    color: #fce300;
+    color: #f6e176;
     transform: scaleY(1.1);
     transition: 0.3s;
   }
@@ -252,15 +252,17 @@ body p{
     z-index:1;
 }
 .logo{
-  width: 30rem;
-  height: 30rem;
-  padding: 3rem 0 0 0;
+  width: 20rem;
+  height: 20rem;
+  padding: 6rem 0 0 0rem;
+
+  
 }
 
 .landing {
 	height:45rem;
 	width: 100%;
-	background-image: url('./images/grey.jpg');
+	background-image: url('./images/cement.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -271,19 +273,20 @@ body p{
 	background-attachment: fixed;
 	color: white;
 }
-
+.landing-info{
+  display: flex;
+  flex-direction: column;
+}
 .landing h2 {
-	font-size: 70px;
-  padding: 9.5rem 0rem 0rem 3rem;
+	font-size: 65px;
+  padding: 3.5rem 2rem 0rem 1rem;
   font-weight: 500;
 	line-height: 80px;
-	width: 70%;
+	width: 100%;
   margin: 0;
-
   font-family: 'Merriweather', serif;
-  font-family: 'Noto Serif', serif;
-  font-family: 'Noto Serif JP', serif;
-
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 
 }
 .landing h3 {
@@ -311,30 +314,29 @@ body p{
 	padding:0.8rem 2rem 0.8rem 2rem;
 	font-size:15px;
   width: 15rem;
-  background-color: white;
+  background-color: #f6e176;
   color: black;
-  border: 2px solid white;
+  border: 2px solid #f6e176;
   border-radius: 1px;
-  float: right;
 
   position:absolute;
-  right: 6rem;
-  top: 37rem;
+  right: 10rem;
+  left: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  top: 36rem;
 
 
 }
 
 .button1:hover {
-  color: rgb(244, 215, 0);
+  color: black;
+  background-color: white;
+  border: white;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
 }
-
-  .info{
-    width:55rem;
-   max-width:55rem;
-  }
 
 
 @media only screen and (max-width: 768px) {
@@ -400,10 +402,7 @@ body p{
   	font-size:12px;
   }
 
-  .logo{
-    width: 10rem;
-    height: 10rem;
-  }
+
 }
 
 
@@ -741,7 +740,7 @@ size: 20;
   -webkit-transition: all .5s ease 0;
   transition: all 0.5s ease 0s;
   -webkit-box-shadow:0 0px 25px rgba(0, 0, 0, 0.10);
-  border-bottom: 5px solid #fce300;
+  border-bottom: 5px solid #f6e176;
 }
 
 .service-icons{
@@ -1052,6 +1051,7 @@ size: 20;
 	background-attachment: fixed;
 	color: white;
 	opacity: 0.8;
+
   background-attachment: scroll !important;
 
 }
@@ -1535,12 +1535,12 @@ size: 20;
 }
 
 .projectpage-item:hover{
-  background: #fce300;
+  background: #f6e176;
   box-shadow: 0 0 11px rgba(33,33,33,.2);
   -webkit-transition: all .5s ease 0;
   transition: all 0.5s ease 0s;
   -webkit-box-shadow:0 0px 25px rgba(0, 0, 0, 0.10);
-  border-bottom: 5px solid #fce300;
+  border-bottom: 5px solid #f6e176;
 }
 
 .projectpageitem img{
@@ -1636,7 +1636,7 @@ size: 20;
   -webkit-transition: all .5s ease 0;
   transition: all 0.5s ease 0s;
   -webkit-box-shadow:0 0px 25px rgba(0, 0, 0, 0.10);
-  border-bottom: 5px solid #fce300;
+  border-bottom: 5px solid #f6e176;
 }
 
 .portfolio-container {
@@ -1921,7 +1921,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-	background:#fce300;
+	background:#f6e176;
   color: black;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
