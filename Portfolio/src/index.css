@@ -13,9 +13,8 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-family: 'Merriweather', serif;
   font-family: 'Noto Serif', serif;
-  font-family: 'Noto Serif JP', serif;
   font-family: 'Noto Serif Telugu', serif;
-
+  font-family: 'Noto Serif JP', serif;
 
   background-color:  white;
 	font-size: 16px;
@@ -209,8 +208,6 @@ body p{
   }
 }
 
-
-
 @media screen and (max-width: 500px) {
   .dropdown {
     position: relative;
@@ -255,8 +252,6 @@ body p{
   width: 20rem;
   height: 20rem;
   padding: 6rem 0 0 0rem;
-
-  
 }
 
 .landing {
@@ -287,7 +282,6 @@ body p{
   font-family: 'Merriweather', serif;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-
 }
 .landing h3 {
 	font-size: 40px;
@@ -297,7 +291,6 @@ body p{
 	width: 70%;
   margin: 0;
   font-family: 'Noto Serif JP', serif;
-
 }
 
 .landing p{
@@ -325,8 +318,6 @@ body p{
   margin-left: auto;
   margin-right: auto;
   top: 36rem;
-
-
 }
 
 .button1:hover {
@@ -467,9 +458,9 @@ body p{
 }
 
 .about-section h4 {
-	font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
+	font-size: 47px;
 	font-weight: 200;
-	padding: 2rem 5rem 2rem 5rem;
+	padding: 2rem 5rem 1rem 5rem;
   margin-bottom: 0;
 }
 
@@ -479,7 +470,6 @@ body p{
 	padding: 0rem 5rem 0rem 5rem;
   font-size: 20px;
   line-height: 33px;
-
 }
 
 .about-split{
@@ -501,7 +491,7 @@ body p{
   background-color: transparent;
   border: none;
 	box-sizing: border-box;
-	font-weight: lighter;
+	font-weight: 10px;
 	font-size: 20px;
 }
 
@@ -511,13 +501,10 @@ body p{
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
-
 }
 
 .arrow-image{
-
 size: 20;
-
 }
 
 @media(max-width:858px) {
@@ -755,19 +742,19 @@ size: 20;
 .service-button {
 	cursor:pointer;
 	border:none;
-  margin: 0rem 0px 6rem 70% ;
+  margin: 0rem 0px 6rem 67.5% ;
 	padding:0.8rem 2rem 0.8rem 2rem;
 	font-size:15px;
   width: 15rem;
-  background-color: rgb(33, 131, 184);
+  background-color: #f6e176;
   color: white;
   border: 2px solid white;
   border-radius: 1px;
 }
 
 .service-button:hover {
-  background-color: rgb(124, 191, 228);
-	-webkit-transition:rgb(89, 154, 189)ase-in-out;
+  background-color: #000000;
+	-webkit-transition:ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
 }
@@ -789,7 +776,7 @@ size: 20;
     resize:none;
     margin-top: 0;
     margin-bottom: 0;
-		color: #ABD6FE;
+		color: #f6e176;
   }
 }
 
@@ -823,7 +810,7 @@ size: 20;
     height: auto;
     resize:none;
     margin: auto;
-		color: #ABD6FE;
+		color: #f6e176;
   }
 
   .item{
@@ -884,7 +871,7 @@ size: 20;
   	font-size: calc(20px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
   	font-weight: 200;
   	padding: 1rem 0rem 1rem 0rem;
-		color: #ABD6FE;
+		color: #f6e176;
   }
 }
 
@@ -978,7 +965,7 @@ size: 20;
     height: auto;
     resize:none;
     margin: auto;
-		color: #ABD6FE;
+		color: #f6e176;
   }
 
   .service-button {
@@ -1168,7 +1155,7 @@ size: 20;
   display: inline-block;
   border: 4px solid white;
   border-radius: 50%;
-  box-shadow: 0 0 4px 4px #A7D3FD;
+  box-shadow: 0 0 4px 4px #f6e176;
   overflow: hidden;
   z-index: 1;
 }
@@ -1573,7 +1560,7 @@ size: 20;
   resize:none;
   margin-top: 0;
   margin-bottom: 0;
-  color: #ABD6FE;
+  color: #f6e176;
 
 }
 
@@ -2092,7 +2079,7 @@ fieldset {
 
 }
 .aboutpage-text{
-  padding: 0rem 2rem 0rem 1.5rem;
+  padding: 0rem 0rem 0rem 1.5rem;
   text-align: left;
   margin-top: 0;
 }
@@ -2102,14 +2089,14 @@ fieldset {
   height: 10px;
   text-align: left;
   margin-top: 0;
-  padding: 0rem 0rem 0rem 2.5rem;
+  padding: 0rem 0rem 0rem 2rem;
 }
 
 .aboutpage-text p {
   font-size: 17px;
-  width: 400px;
+  width: 500px;
   resize: none;
-  padding: 0rem 0rem 0rem 2.5rem;
+  padding: 0rem 0rem 0rem 2rem;
   margin-top: 0;
   text-align: left;
 }
@@ -2149,7 +2136,6 @@ fieldset {
 }
 #about-img{
   height: 400px;
-  width: 350px;
   resize: none;
 }
 
@@ -2367,7 +2353,7 @@ fieldset {
 	background-color: white;
 	color: black;
   align-content: flex-start;
-  padding: 0rem 0rem 2rem 0rem;
+  padding: 11rem 0rem 6rem 0rem;
 }
 .section3-CN h4 {
   font-size: calc(30px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
@@ -2381,6 +2367,15 @@ fieldset {
   font-size: 18px;
 	font-weight: 100;
 	padding: 0rem 3rem 0rem 3rem;
+}
+.sectionpage-div{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	color: black;
+  align-content: flex-start;
+  padding: 0rem 0rem 2rem 0rem;
+
 }
 
 @media only screen and (max-width: 828px) {
@@ -2658,10 +2653,6 @@ fieldset {
   padding: 1rem 1rem 4rem 1rem ;
 }
 
-.carousel .control-dots .dot {
-  background-color: blue;
-}
-
 .legend {
   transition: all .5s ease-in-out;
   position: absolute;
@@ -2676,9 +2667,7 @@ fieldset {
   text-align: center;
   opacity: 0.25;
   transition: opacity .35s ease-in-out;
-  background: #A7D3FD;
-
-    
+  background: #f6e176; 
  }
  .yourSelector {
   :global( .slide .legend ) {

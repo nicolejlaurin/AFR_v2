@@ -17,27 +17,27 @@ const CarouselPage = () => {
     <Carousel>
       <div >
         <img src={Img4} />
-        <p className="legend" style={{background:'#B8DDFF', width:'30rem'}}>Interior Waterproofing</p>
+        <p className="legend" style={{background:'#f6e176', width:'30rem'}}>Interior Waterproofing</p>
       </div>
       <div>
         <img src={Img4} />
-        <p className="legend" style={{background:'#B8DDFF', width:'30rem'}}>Crack Repair</p>
+        <p className="legend" style={{background:'#f6e176', width:'30rem'}}>Crack Repair</p>
       </div>
       <div>
         <img src={Img4} />
-        <p className="legend" style={{background:'#B8DDFF', width:'30rem'}}>Basement Lowering</p>
+        <p className="legend" style={{background:'#f6e176', width:'30rem'}}>Basement Lowering</p>
       </div>
       <div>
         <img src={Img4} />
-        <p className="legend" style={{background:'#B8DDFF', width:'30rem'}}>Sewer Backups</p>
+        <p className="legend" style={{background:'#f6e176', width:'30rem'}}>Sewer Backups</p>
       </div>
       <div>
         <img src={Img4} />
-        <p className="legend" style={{background:'#B8DDFF', width:'30rem'}}>Wall Replacement</p>
+        <p className="legend" style={{background:'#f6e176', width:'30rem'}}>Wall Replacement</p>
       </div>
       <div>
         <img src={Img4} />
-        <p className="legend" style={{background:'#B8DDFF', width:'30rem'}}>Basement Finishing</p>
+        <p className="legend" style={{background:'#f6e176', width:'30rem'}}>Basement Finishing</p>
       </div>
     </Carousel>
 

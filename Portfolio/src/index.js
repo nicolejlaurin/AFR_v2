@@ -59,20 +59,6 @@ ReactDOM.render(
       <Route path="/aboutpage" element={<AboutPage />} />
       <Route path="/ServicePage" element={<>
   		<ServicePage />
-  		<Service1 href="service1" style={{backgroundColor : 'red'}}/>
-  		<Service2/>
-      <Service3 />
-      <Service4 />
-      <Service5 />
-      <Service6 />
-      <Service7 />
-      <Service8 />
-      <Service9 />
-      <Service10 />
-      <Service11 />
-      <Service12 />
-      <Service13 />
-      <Service14 />
 
   		</>} />
       <Route path="/testimonials" element={<Testimonials />} />

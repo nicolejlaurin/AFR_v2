@@ -91,7 +91,7 @@ window.onclick = function(event) {
         <div class="dropdown" id="dropdown">
         <NavLink to="/ServicePage" className='nav-links a dropbtn' id="drop-port" onMouseOver={()=>{ DropDown(); closeMobileMenu(); }} >Services</NavLink>
           <div class="dropdown-content" id="myDropdown" aria-labelledby="navbarDropdown" onhov>
-            <NavLink  to="/services/Service1" className='nav-links drop' onClick={closeMobileMenu}>Basement Waterproofing</NavLink>
+            <NavLink to="/services/service1" className='nav-links drop' onClick={closeMobileMenu}>Basement Waterproofing</NavLink>
             <NavLink to="/services/Service2" className='nav-links drop' onClick={closeMobileMenu}>Foundation Lowering</NavLink>
             <NavLink to="/services/Service3" className='nav-links drop' onClick={closeMobileMenu}>Crack Injection Repair</NavLink>
             <NavLink to="/services/Service4" className='nav-links drop' onClick={closeMobileMenu}>Window Well</NavLink>
@@ -105,10 +105,6 @@ window.onclick = function(event) {
             <NavLink to="/services/Service12" className='nav-links drop' onClick={closeMobileMenu}>Wall Replacement</NavLink>
             <NavLink to="/services/Service13" className='nav-links drop' onClick={closeMobileMenu}>Sewer Backups</NavLink>
             <NavLink to="/services/Service14" className='nav-links drop' onClick={closeMobileMenu}>Cracked Waterproofing</NavLink>
-
-            <ul>
-      
-    </ul>
           </div>
         </div>
         </li>
