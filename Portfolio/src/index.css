@@ -2284,7 +2284,7 @@ fieldset {
 .Service-CN p {
 	font-size: 18px;
 	font-weight: 80;
-  font-style: italic;
+  font-style:normal;
   padding: 1rem 5rem 1rem 5rem;
 }
 .service-split-img{
@@ -2355,6 +2355,7 @@ fieldset {
   align-content: flex-start;
   padding: 11rem 0rem 6rem 0rem;
 }
+
 .section3-CN h4 {
   font-size: calc(30px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
 	font-weight: 300;
@@ -2375,7 +2376,21 @@ fieldset {
 	color: black;
   align-content: flex-start;
   padding: 0rem 0rem 2rem 0rem;
+}
 
+.sectionpage-div h4 {
+  font-size: calc(30px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
+	font-weight: 300;
+  color: black;
+  padding: 0rem 0rem 0rem 3rem;
+  text-align: left;
+  margin: 0;
+}
+.sectionpage-div p {
+  text-align: left;
+  font-size: 18px;
+	font-weight: 100;
+	padding: 0rem 3rem 0rem 3rem;
 }
 
 @media only screen and (max-width: 828px) {
