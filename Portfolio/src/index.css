@@ -330,12 +330,24 @@ body p{
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .landing {
     min-height: 70vh;
     background-size: 100rem;
     width: auto;
     height: 40rem;
+  }
+
+  .landing h2 {
+    font-size: 47px;
+    padding: 3.5rem 2rem 0rem 1rem;
+    font-weight: 500;
+    line-height: 80px;
+    width: 100%;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
   }
 
   .landing p{
@@ -352,21 +364,52 @@ body p{
   	font-size:12px;
   }
 }
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   .landing {
-    max-height: 65vh;
-    min-height: 55vh;
+    min-height: 70vh;
+    background-size: 100rem;
     width: auto;
+    height: 40rem;
+  }
+  .landing h2 {
+    font-size: 40px;
+    padding: 3.5rem 2rem 0rem 1rem;
+    font-weight: 500;
+    line-height: 80px;
+    width: 100%;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
   }
 
+  .landing p{
+    font-size: calc(10px + (50 - 35) * ((100vw - 300px) / (1600 - 300)));
+  	font-weight: 400;
+  	padding: 0rem 2rem 0rem 3rem;
+  }
+  .button1 {
+    cursor:pointer;
+    border:none;
+
+    position:absolute;
+    right: 10rem;
+    left: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    top: 36rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+
 	.landing h2 {
-		font-size: 57px;
-	  padding: 9.5rem 0rem 0rem 3rem;
+		font-size: 35px;
+	  padding: 2rem 0rem 0rem 0rem;
 	  font-weight: 500;
 		line-height: 40px;
-		width: 70%;
-	  margin: 0;
+	  
 	}
 	.landing h3 {
 		font-size: 30px;
@@ -384,34 +427,35 @@ body p{
     margin:0;
     line-height: 1.3rem;
   }
-
-  .info button{
-    padding-left: 2rem;
-  }
-
   .button1 {
-  	font-size:12px;
+    cursor:pointer;
+    border:none;
+
+    position:absolute;
+    right: 6rem;
+    left: 6rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    top: 36rem;
+    width: auto;
   }
-
-
+  
 }
 
-
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 500px) {
 
 	.landing h2 {
-		font-size: 40px;
-	  padding: 9.5rem 0rem 0rem 2rem;
+		font-size: 32px;
+	  padding: 2rem 0rem 0rem 0rem;
 	  font-weight: 500;
 		line-height: 40px;
-		width: 70%;
-	  margin: 0;
+	  
 	}
 	.landing h3 {
-		font-size: 20px;
-	  padding: 0rem 0rem 5rem 2rem;
+		font-size: 30px;
+	  padding: 0rem 0rem 5rem 3rem;
 	  font-weight: 500;
-		line-height: 50px;
+		line-height: 60px;
 		width: 70%;
 	  margin: 0;
 	}
@@ -419,25 +463,23 @@ body p{
   .landing p{
     font-size: 14px;
   	font-weight: 200;
-  	padding: 1rem 3rem 0rem 2rem;
+  	padding: 1rem 3rem 0rem 3rem;
     margin:0;
     line-height: 1.3rem;
-		word-break: break-all;
-		width: 20%;
-
   }
-
-  .info button{
-    padding-left: 2rem;
-  }
-
   .button1 {
-  	font-size:12px;
-		padding-left: 0rem;
+    cursor:pointer;
+    border:none;
 
+    position:absolute;
+    right: 3rem;
+    left: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    top: 36rem;
+    width: auto;
   }
 }
-
 
 
 /*----------------------------------------------------------------*/
@@ -1970,10 +2012,10 @@ fieldset {
     resize: none;
 }
   #contact {
-    min-height: 60vh;
+    min-height: 50vh;
     text-align: left;
     width: 100%;
-    padding: 2rem 0rem 2rem 1rem;
+    padding: 2rem 0rem 0rem 1rem;
   }
   .contact-split-left{
     padding: 0rem 7rem 0rem 0rem;
@@ -2018,6 +2060,23 @@ fieldset {
 	text-align: center;
 	box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
 
+}
+
+@media only screen and (max-width: 898px) {
+
+  .footer {
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    line-height: 70px;
+    height: 70px;
+    margin-top: 2rem;
+    text-align: center;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+  
+  }
+  
 }
 
 
@@ -2441,7 +2500,7 @@ fieldset {
     flex-direction: column;
     align-content: flex-start;
     text-align: center;
-    padding: 7rem 2rem 0rem 2rem;
+    padding: 7rem 1rem 0rem 1rem;
   }
   .Service-CN h4 {
   	font-size: calc(30px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
@@ -2455,7 +2514,7 @@ fieldset {
   .Service-CN p {
   	font-size: 14px;
   	font-weight: 80px;
-    font-style: italic;
+    font-style: normal;
     padding: 1rem 0rem 1rem 0rem;
   }
   .service-split{
@@ -2463,12 +2522,12 @@ fieldset {
   }
   .service-split h4{
     text-align: center;
-    padding: 3rem 2rem 0rem 2rem;
+    padding: 2rem 2rem 0rem 2rem;
   }
   .service-split p{
     text-align: center;
     font-size: 14px;
-    padding: 0rem 2rem 0rem 2rem;
+    padding: 0rem 1rem 2rem 1rem;
   }
   .service-split img{
     height: 300px;
@@ -2666,6 +2725,35 @@ fieldset {
   margin: auto;
   width: 80%;
   padding: 1rem 1rem 4rem 1rem ;
+}
+
+@media only screen and (max-width: 900px) {
+  .carousel-div{
+    padding: 4rem 2rem 0 2rem ;
+  }
+  .carousel-div h2{
+    text-align: center;
+    font-weight: 100;
+    line-height: 40px;
+    font-size: 20px;
+    margin: auto;
+    width: 100%;
+    padding: 1rem 0rem 4rem 0rem ;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .carousel-div{
+    padding: 4rem 2rem 0 2rem ;
+  }
+  .carousel-div h2{
+    text-align: center;
+    font-weight: 100;
+    line-height: 38px;
+    font-size: 18px;
+    margin: auto;
+    width: 100%;
+    padding: 1rem 0rem 4rem 0rem ;
+  }
 }
 
 .legend {

@@ -1,7 +1,7 @@
 {
   "name": "package",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "private": true,
   "main": "./src/index.js",
   "type": "module",
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/nicolejlaurin/AFR_v2/issues"
   },
-  "homepage": ".",
+  "homepage": "http://.",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -59,5 +59,7 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
