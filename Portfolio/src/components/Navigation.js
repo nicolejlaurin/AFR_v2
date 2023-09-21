@@ -64,10 +64,23 @@ window.onclick = function(event) {
   }
 }
 
+function myFunction() {
+  var x = document.getElementById("navbar");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
   window.addEventListener('resize', showButton);
   return (
 
+    
+
   <nav className='navbar' id="navbar">
+
+    
       <div class="navbar-left">
          <a href="/" aria-current="page" class="w-inline-block w--current">
          </a>
@@ -86,31 +99,30 @@ window.onclick = function(event) {
           <NavLink to="/aboutpage" className='nav-links' onClick={closeMobileMenu}>About</NavLink>
         </li>
 
-
         <li>
-        <div class="dropdown" id="dropdown">
-        <NavLink to="/ServicePage" className='nav-links a dropbtn' id="drop-port" onMouseOver={()=>{ DropDown(); closeMobileMenu(); }} >Services</NavLink>
-          <div class="dropdown-content" id="myDropdown" aria-labelledby="navbarDropdown" onhov>
-            <NavLink to="/services/service1" className='nav-links drop' onClick={closeMobileMenu}>Basement Waterproofing</NavLink>
-            <NavLink to="/services/Service2" className='nav-links drop' onClick={closeMobileMenu}>Foundation Lowering</NavLink>
-            <NavLink to="/services/Service3" className='nav-links drop' onClick={closeMobileMenu}>Crack Injection Repair</NavLink>
-            <NavLink to="/services/Service4" className='nav-links drop' onClick={closeMobileMenu}>Window Well</NavLink>
-            <NavLink to="/services/Service5" className='nav-links drop' onClick={closeMobileMenu}>Sump Pumps</NavLink>
-            <NavLink to="/services/Service6" className='nav-links drop' onClick={closeMobileMenu}>Weeping Tiles</NavLink>
-            <NavLink to="/services/Service7" className='nav-links drop' onClick={closeMobileMenu}>Basement Window</NavLink>
-            <NavLink to="/services/Service8" className='nav-links drop' onClick={closeMobileMenu}>Structural Repairs</NavLink>
-            <NavLink to="/services/Service9" className='nav-links drop' onClick={closeMobileMenu}>Basement Lowering</NavLink>
-            <NavLink to="/services/Service10" className='nav-links drop' onClick={closeMobileMenu}>Bowing Walls</NavLink>
-            <NavLink to="/services/Service11" className='nav-links drop' onClick={closeMobileMenu}>Concrete Repair</NavLink>
-            <NavLink to="/services/Service12" className='nav-links drop' onClick={closeMobileMenu}>Wall Replacement</NavLink>
-            <NavLink to="/services/Service13" className='nav-links drop' onClick={closeMobileMenu}>Sewer Backups</NavLink>
-            <NavLink to="/services/Service14" className='nav-links drop' onClick={closeMobileMenu}>Cracked Waterproofing</NavLink>
-          </div>
-        </div>
+          <div class="dropdown">
+
+             <NavLink to="/ServicePage" className='dropbtn' id="drop-port">Services‎ ‎ <i class="fa fa-caret-down"></i></NavLink>
+
+            <div class="dropdown-content" id="myDropdown" aria-labelledby="navbarDropdown" onhov>
+                  <NavLink to="/services/service1" className='nav-links drop' onClick={closeMobileMenu}>Basement Waterproofing</NavLink>
+                  <NavLink to="/services/Service2" className='nav-links drop' onClick={closeMobileMenu}>Foundation Lowering</NavLink>
+                  <NavLink to="/services/Service3" className='nav-links drop' onClick={closeMobileMenu}>Crack Injection Repair</NavLink>
+                  <NavLink to="/services/Service4" className='nav-links drop' onClick={closeMobileMenu}>Window Well</NavLink>
+                  <NavLink to="/services/Service5" className='nav-links drop' onClick={closeMobileMenu}>Sump Pumps</NavLink>
+                  <NavLink to="/services/Service6" className='nav-links drop' onClick={closeMobileMenu}>Weeping Tiles</NavLink>
+                  <NavLink to="/services/Service7" className='nav-links drop' onClick={closeMobileMenu}>Basement Window</NavLink>
+                  <NavLink to="/services/Service8" className='nav-links drop' onClick={closeMobileMenu}>Structural Repairs</NavLink>
+                  <NavLink to="/services/Service9" className='nav-links drop' onClick={closeMobileMenu}>Basement Lowering</NavLink>
+                  <NavLink to="/services/Service10" className='nav-links drop' onClick={closeMobileMenu}>Bowing Walls</NavLink>
+                  <NavLink to="/services/Service11" className='nav-links drop' onClick={closeMobileMenu}>Concrete Repair</NavLink>
+                  <NavLink to="/services/Service12" className='nav-links drop' onClick={closeMobileMenu}>Wall Replacement</NavLink>
+                  <NavLink to="/services/Service13" className='nav-links drop' onClick={closeMobileMenu}>Sewer Backups</NavLink>
+                  <NavLink to="/services/Service14" className='nav-links drop' onClick={closeMobileMenu}>Cracked Waterproofing</NavLink>
+                </div>
+        </div> 
         </li>
        
-   
-
         <li>
           <NavLink to="/contactpage" className='nav-links' onClick={closeMobileMenu}>Contact</NavLink>
         </li>

@@ -45,7 +45,6 @@ body p{
 	height: 6rem;
 }
 
-
 .navbar-left img{
   width: 100px;
   height: 100px;
@@ -76,7 +75,19 @@ body p{
   padding: 16px;
   font-size: 16px;
   border: none;
+  color: black;
+  text-decoration: none;
+  padding: 0rem 0.7rem 0.7rem 0.7rem;
+  text-align: center;
+  font-size: 16px;
 }
+.dropbtn:hover {
+  border-bottom: none;
+  color: #f6e176;
+  transform: scale(1.1);
+  transition: all 0.2s ease-out;
+}
+
 
 .dropdown {
   position: relative;
@@ -86,7 +97,7 @@ body p{
 .dropdown-content {
   display: none;
   background-color: white;
-  position: absolute;
+  position:absolute;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -99,7 +110,10 @@ body p{
   display: block;
 }
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 @media screen and (min-width: 960px) {
 
@@ -124,7 +138,6 @@ body p{
     transition: all 0.2s ease-out;
   }
 
-
   .nav-menu {
     display: inline-block;
     grid-gap: 10px;
@@ -140,8 +153,6 @@ body p{
     font-size: 17px;
     padding: 16px;
   }
-
-
 }
 @media screen and (max-width: 960px) {
 
@@ -174,11 +185,11 @@ body p{
   .nav-links {
     display:flex;
     background-color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: lighter;
     color: black;
     text-decoration: none;
-    padding: 1.5rem;
+    padding: 1.3rem;
     justify-content: center;
   }
 
@@ -206,6 +217,34 @@ body p{
     position: relative;
     display: contents;
   }
+  #myDropdown{
+    height: 100%;
+  }
+  .dropdown:hover .dropdown-content {
+    display: contents;
+    width:50%;
+  }
+  /* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: white;
+  font-family: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 100%;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  display:inline-flex;
+  text-decoration: none;
+  text-align: left;
+}
+.dropdown-content .nav-links{
+  font-size: 14px;
+  padding: 0.3rem 0rem 0.3rem 0rem;
+}
 }
 
 @media screen and (max-width: 500px) {
@@ -217,7 +256,7 @@ body p{
   .dropdown-content {
     display: none;
     background-color: white;
-    position: absolute;
+    position:fixed;
     width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -229,7 +268,45 @@ body p{
     text-decoration: none;
     display: block;
   }
+  /* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: white;
+  font-family: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 100%;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  display:inline-flex;
+  text-decoration: none;
+  text-align: left;
 }
+.dropdown-content .nav-links{
+  font-size: 14px;
+  padding: 0.3rem 0rem 0.3rem 0rem;
+}
+}
+
+/*--------------------------Navbar PAGE--------------------------*/
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+
+
 
 /*--------------------------LANDING PAGE--------------------------*/
 
@@ -2071,7 +2148,6 @@ fieldset {
     font-size: 13px;
     line-height: 70px;
     height: 70px;
-    margin-top: 2rem;
     text-align: center;
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
   
