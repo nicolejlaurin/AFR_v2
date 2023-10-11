@@ -1,5 +1,5 @@
 import React from 'react';
-import Img from '../images/about.png';
+import Img from '../images/about_img.png';
 import SecondPage from './aboutpage';
 import Arrow from '../images/arrow.png';
 import { Link }  from 'react-router-dom';
@@ -9,7 +9,7 @@ import './scroll'
 
 export default function About() {
   return (
-	<div className='about-section'>
+	<div className='about-section' id='about'>
     <div class='about-split animated reveal fade-bottom'>
       <div class='about-split-left'>
         <h4>

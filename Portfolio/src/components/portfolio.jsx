@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link }  from 'react-router-dom';
 import { BsArrowRight } from "react-icons/bs";
-import Img1 from '../images/editorial.jpg';
 import Img2 from '../images/commercial.jpg';
-import Img3 from '../images/film2.jpg';
 
 
 export default () => (
@@ -16,7 +14,7 @@ export default () => (
 		<div class="project-container">
 		<h4>Editorial</h4>
     <div class="item pre animated reveal fade-bottom"> <span class="icon feature_box_col_one"></span>
-		<img src={Img1} alt=""></img>
+		<img src={Img2} alt=""></img>
 		<p>• Develop project concept, design, and detailed plans.</p>
 		<p>• Purchase suitable land for construction.</p>
 		<p>• Obtain necessary permits and approvals from local government authorities.</p>
@@ -34,7 +32,7 @@ export default () => (
 		<div class="inner-container">
 		<h4>Commercial Styling</h4>
     <div class="item post animated reveal fade-bottom"> <span class="icon feature_box_col_three"></span>
-		<img src={Img3} alt=""></img>
+		<img src={Img2} alt=""></img>
 		<p padding-top={'3rem'}>• Arrange for a final inspection and obtain an occupancy permit.</p>
 		<p>• Address any issues or deficiencies.</p>
 		<p>• Provide post-construction services as agreed in contracts.</p>
@@ -43,7 +41,7 @@ export default () => (
 		<div class="inner-container">
 		<h4>Personal Styling</h4>
     <div class="item pre animated reveal fade-bottom"> <span class="icon feature_box_col_one"></span>
-		<img src={Img1} alt=""></img>
+		<img src={Img2} alt=""></img>
 		<p>• Develop project concept, design, and detailed plans.</p>
 		<p>• Purchase suitable land for construction.</p>
 		<p>• Obtain necessary permits and approvals from local government authorities.</p>

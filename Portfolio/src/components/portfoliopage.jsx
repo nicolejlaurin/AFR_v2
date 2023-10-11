@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link }  from 'react-router-dom';
 import { BsArrowRight } from "react-icons/bs";
-import Img1 from '../images/editorial.jpg';
 import Img2 from '../images/commercial.jpg';
-import Img3 from '../images/film2.jpg';
 
 
 export default () => (
@@ -14,7 +12,7 @@ export default () => (
     <div class="portfolio-div">
         <div class="portfolio-container">
             <h4>Editorial</h4>
-            <a class="portfolio-item" href="/editorial"><img src={Img1} alt=""></img></a>
+            <a class="portfolio-item" href="/editorial"><img src={Img2} alt=""></img></a>
             <p>• Develop project concept, design, and detailed plans.</p>
             <p>• Purchase suitable land for construction.</p>
             <p>• Obtain necessary permits and approvals from local government authorities.</p>
@@ -28,7 +26,7 @@ export default () => (
         </div>
         <div class="portfolio-container">
             <h4>Film</h4>
-            <a class="portfolio-item" href="/Film"><img src={Img3} alt=""></img></a> 
+            <a class="portfolio-item" href="/Film"><img src={Img2} alt=""></img></a> 
             <p>• Arrange for a final inspection and obtain an occupancy permit.</p>
             <p>• Address any issues or deficiencies.</p>
             <p>• Provide post-construction services as agreed in contracts.</p>

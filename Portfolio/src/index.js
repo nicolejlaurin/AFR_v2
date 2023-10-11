@@ -27,7 +27,6 @@ import Service11 from './components/services/service11.jsx';
 import Service12 from './components/services/service12.jsx';
 import Service13 from './components/services/service13.jsx';
 import Service14 from './components/services/service14.jsx';
-import carousel from "./components/carousel.jsx";
 
 import MainSection5 from './components/main-section5.jsx';
 import Thankyou from './components/thankyou.js';
