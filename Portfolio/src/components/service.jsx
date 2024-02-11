@@ -1,9 +1,11 @@
 import React from 'react';
-import Img1 from '../images/waterproof.jpeg';
-import Img2 from '../images/crack.jpeg';
-import Img3 from '../images/pump.png';
-import Img4 from '../images/underpinning.png';
-import Img5 from '../images/rubble.jpeg';
+import Img1 from '../images/unnamed-18.jpg';
+import Img2 from '../images/services/Service2.jpg';
+import Img3 from '../images/unnamed-16.jpg';
+import Img4 from '../images/unnamed-3.png';
+import Img5 from '../images/unnamed-17.jpg';
+import Img6 from '../images/unnamed-2.png';
+
 import { Link }  from 'react-router-dom';
 
 export default () => (
@@ -17,7 +19,7 @@ export default () => (
 
 	<div class="container">
 		<div class="inner-container">
-		<h4>Interior Waterproofing</h4>
+		<h4>Exterior Waterproofing</h4>
     <div class="item pre animated reveal fade-bottom"> <span class="icon feature_box_col_one"></span>
 		<img src={Img1} alt=""></img>
 		<p>Keep your home safe and dry with our expert interior waterproofing solutions, guarding against moisture and leaks to protect your property.</p>
@@ -69,7 +71,7 @@ export default () => (
 		<div class="inner-container">
 		<h4>Basement Finishing</h4>
     <div class="item pre animated reveal fade-bottom"> <span class="icon feature_box_col_one"></span>
-		<img src={Img5} alt=""></img>
+		<img src={Img6} alt=""></img>
 		<p>Maximize your living space with our basement finishing expertise. From concept to completion, we'll turn your basement into a comfortable and stylish living area.</p>
 		<Link to='/servicepage'>
 			<button className="container-button">Learn more</button>

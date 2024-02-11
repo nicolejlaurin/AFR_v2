@@ -1,12 +1,11 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { useState } from 'react';
-import Img1 from '../images/grey.jpg';
-import Img2 from '../images/hvac.jpeg';
-import Img3 from '../images/helmets.jpg';
-
-import Img4 from '../images/CN-6.jpg';
-import Img5 from '../images/CN-27.jpg';
-import Img6 from '../images/CN-6.jpg';
+import Img1 from '../images/unnamed-18.jpg';
+import Img2 from '../images/services/Service2.jpg';
+import Img3 from '../images/unnamed-16.jpg';
+import Img4 from '../images/unnamed-3.png';
+import Img5 from '../images/unnamed-17.jpg';
+import Img6 from '../images/unnamed-2.png';
 
 
 export default function App() {
@@ -19,9 +18,9 @@ export default function App() {
           <img className='carousel-img' src={Img3} ></img>,
           <img className='carousel-img' src={Img4} ></img>,
           <img className='carousel-img' src={Img5} ></img>,
-          <img className='carousel-img' src={Img4} ></img>,
-          <img className='carousel-img' src={Img5} ></img>,
-          <img className='carousel-img' src={Img4} ></img>]
+          <img className='carousel-img' src={Img6} ></img>]
+
+
   
   // we want the scope to be always to be in the scope of the array so that the carousel is endless
   const indexInArrayScope =
