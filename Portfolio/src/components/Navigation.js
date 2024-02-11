@@ -105,15 +105,15 @@ function myFunction() {
              <NavLink to="/ServicePage" className='dropbtn' id="drop-port">Services‎ ‎ <i class="fa fa-caret-down">‎ ‎ ‎ ‎ ‎ ‎ ‎ </i></NavLink>
 
             <div class="dropdown-content" id="myDropdown" aria-labelledby="navbarDropdown" onhov>
-                  <NavLink to="/services/service1" className='nav-links drop' onClick={closeMobileMenu}>Basement Waterproofing</NavLink>
-                  <NavLink to="/services/Service2" className='nav-links drop' onClick={closeMobileMenu}>Foundation Lowering</NavLink>
+                  <NavLink to="/services/service1" className='nav-links drop' onClick={closeMobileMenu}>Foundation Waterproofing</NavLink>
+                  <NavLink to="/services/Service2" className='nav-links drop' onClick={closeMobileMenu}>Basement Lowering</NavLink>
                   <NavLink to="/services/Service3" className='nav-links drop' onClick={closeMobileMenu}>Crack Injection Repair</NavLink>
                   <NavLink to="/services/Service4" className='nav-links drop' onClick={closeMobileMenu}>Window Well</NavLink>
                   <NavLink to="/services/Service5" className='nav-links drop' onClick={closeMobileMenu}>Sump Pumps</NavLink>
                   <NavLink to="/services/Service6" className='nav-links drop' onClick={closeMobileMenu}>Weeping Tiles</NavLink>
                   <NavLink to="/services/Service7" className='nav-links drop' onClick={closeMobileMenu}>Basement Window</NavLink>
                   <NavLink to="/services/Service8" className='nav-links drop' onClick={closeMobileMenu}>Structural Repairs</NavLink>
-                  <NavLink to="/services/Service9" className='nav-links drop' onClick={closeMobileMenu}>Basement Lowering</NavLink>
+                  <NavLink to="/services/Service9" className='nav-links drop' onClick={closeMobileMenu}>Basement Finishing</NavLink>
                   <NavLink to="/services/Service10" className='nav-links drop' onClick={closeMobileMenu}>Bowing Walls</NavLink>
                   <NavLink to="/services/Service11" className='nav-links drop' onClick={closeMobileMenu}>Concrete Repair</NavLink>
                   <NavLink to="/services/Service12" className='nav-links drop' onClick={closeMobileMenu}>Wall Replacement</NavLink>

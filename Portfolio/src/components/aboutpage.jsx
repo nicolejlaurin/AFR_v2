@@ -1,5 +1,5 @@
 import React from 'react';
-import Img from '../images/testimony1.png';
+import Img from '../images/CEO.jpg';
 
 export default () => (
 
@@ -37,8 +37,7 @@ Why Choose Us
 			<div className="aboutpage-text">
 				<h4 class="name"> Founder</h4>
 				<p>
-				Mostafa Menafi, a seasoned entrepreneur with roots tracing back to Iran, embarked on a transformative journey that led him to the heart of Ottawa, Ontario. Armed with the skills forged through his military background, Mostafa laid the groundwork for his family-owned foundation repair company. Drawing from a lifetime of experiences, he has gained resilience, discipline, and a relentless pursuit for excellence. Mostafa’s journey transcends borders, a story of humble beginnings that motivated his desire to offer affordable services without compromising quality. His upbringing, defined by modesty, instilled in him an appreciation for the intrinsic value of diligent craftsmanship. This understanding fuels his unyielding pursuit of affordable yet exceptional workmanship, ensuring every project reflects the embodiment of his values. Mostafa’s legacy resonates through the strong foundations he builds, leaving a lasting impact on families and the community, just as he did with his own when he arrived in Ottawa years ago.
-				</p>
+				Mostafa Menafi, a seasoned entrepreneur with roots tracing back to various experiences, embarked on a transformative journey that led him to the heart of Ottawa, Ontario. Armed with the skills forged through diverse backgrounds, Mostafa laid the groundwork for his family-owned foundation repair company. Drawing from a lifetime of experiences, he has gained resilience, discipline, and a relentless pursuit for excellence. Mostafa’s journey transcends borders, a story of humble beginnings that motivated his desire to offer affordable services without compromising quality. His upbringing, defined by modesty, instilled in him an appreciation for the intrinsic value of diligent craftsmanship. This understanding fuels his unyielding pursuit of affordable yet exceptional workmanship, ensuring every project reflects the embodiment of his values. Mostafa’s legacy resonates through the strong foundations he builds, leaving a lasting impact on families and the community, just as he did when he arrived in Ottawa years ago.				</p>
 			</div>
 		</div>
 	</div>

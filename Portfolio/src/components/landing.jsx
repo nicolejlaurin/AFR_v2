@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link }  from 'react-router-dom';
 import 'animate.css';
-import Video from './drake.mp4';
 import logo_v2 from '../images/AFR_Logo_V2.png';
 
 

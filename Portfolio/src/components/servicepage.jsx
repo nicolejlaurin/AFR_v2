@@ -1,9 +1,23 @@
 import React from 'react';
 import { FaCaretRight, FaChevronRight} from 'react-icons/fa';
-import Img from '../images/underpinning.png';
+import Img from '../images/services/Service14.jpg';
+import Img2 from '../images/services/Service1.jpg';
+import Img3 from '../images/services/Service2.jpg';
+import Img4 from '../images/services/Service13.jpg';
+import Img5 from '../images/services/Service12.jpg';
+import Img6 from '../images/services/Service11.jpg';
+import Img7 from '../images/services/Service10.jpg';
+import Img8 from '../images/services/Service9.jpg';
+import Img9 from '../images/services/Service8.jpg';
+import Img10 from '../images/services/Service7.jpg';
+import Img11 from '../images/services/Service6.jpg';
+import Img12 from '../images/services/Service5.jpg';
+import Img13 from '../images/services/Service4.jpg';
+import Img14 from '../images/services/Service3.jpg';
+
 
 export default () => (
-	<div className='Service-CN'>
+	<div className='Services'>
 		<h4>
 		OUR SERVICES
 		</h4>
@@ -28,7 +42,7 @@ export default () => (
 		</div>
 
 		<div class="service-split">
-			<img class="service-split-img" src={Img}></img>
+			<img class="service-split-img" src={Img2}></img>
 			<div>
 			<h4>
 			Foundation Lowering
@@ -40,7 +54,7 @@ export default () => (
 		</div>
 
 		<div class="service-split">
-			<img class="service-split-img" src={Img}></img>
+			<img class="service-split-img" src={Img3}></img>
 			<div>
 			<h4>
 			Crack Injection Repair
@@ -52,7 +66,7 @@ export default () => (
 		</div>
 
 		<div class="service-split">
-			<img class="service-split-img" src={Img}></img>
+			<img class="service-split-img" src={Img4}></img>
 			<div>
 				<h4>Window Well
 				</h4>
@@ -63,7 +77,7 @@ export default () => (
 
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img}></img>
+		<img class="service-split-img" src={Img5}></img>
 		<div>
 		<h4>
 		Sump Pumps
@@ -74,7 +88,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img}></img>
+		<img class="service-split-img" src={Img6}></img>
 		<div>
 		<h4>
 		Weeping Tiles
@@ -86,7 +100,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img}></img>
+		<img class="service-split-img" src={Img7}></img>
 		<div>
 		<h4>
 		Basement Window
@@ -97,7 +111,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img}></img>
+		<img class="service-split-img" src={Img8}></img>
 		<div>
 		<h4>
 		Structural Repairs
@@ -108,7 +122,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img}></img>
+		<img class="service-split-img" src={Img9}></img>
 		<div>
 		<h4>
 		Basement Lowering
@@ -119,7 +133,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img}></img>
+		<img class="service-split-img" src={Img10}></img>
 		<div>
 		<h4>
 		Bowing Walls
@@ -130,7 +144,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img}></img>
+		<img class="service-split-img" src={Img11}></img>
 		<div>
 		<h4>
 		Concrete Repair
@@ -141,7 +155,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img}></img>
+		<img class="service-split-img" src={Img12}></img>
 		<div>
 		<h4>
 		Wall Replacement
@@ -152,7 +166,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img}></img>
+		<img class="service-split-img" src={Img13}></img>
 		<div>
 		<h4>
 		Sewer Backups
@@ -163,18 +177,15 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img}></img>
+		<img class="service-split-img" src={Img14}></img>
 		<div>
 		<h4>
 		Cracked Waterproofing
 		</h4>
 		<p>Address cracked waterproofing effectively with Affordable Foundation Repair. Our solutions include fixing cracks, enhancing waterproofing for surfaces like basements, roofs, and concrete. Prevent leaks, water damage, and benefit from structural analysis and drainage improvements.
-		</p>	
+		</p>
 		</div>
 	</div>
-
-
-	
 	</div>
 	</div>
 );
