@@ -13,7 +13,7 @@ export default () => (
 		Structural Repairs
 		</h4>
 		<p>Elevate Your Foundation with Our Affordable Structural Repair Services! Experience the difference of our budget-friendly solutions that reinforce and restore the structural integrity of your property. Trust our experts at Affordable foundation repair.
-		</p>	
+		</p>
 		</div>
 	</div>
 

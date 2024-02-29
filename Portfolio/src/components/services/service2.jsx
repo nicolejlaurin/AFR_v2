@@ -8,11 +8,10 @@ export default () => (
 		<img class="service-split-img" src={Img}></img>
 		<div>
 		<h4>
-		Foundation Lowering
+		Basement Lowering
 		</h4>
 		<p>
-		Transform your space effortlessly with Affordable Foundation Repair's foundation lowering service. Our experts excavate and lower foundations, adding valuable height and living areas. From meticulous planning to specialized equipment, we ensure structural integrity remains intact. Achieve a larger living space without the need for extensive renovations.
-		</p>
+		Maximize comfort with Affordable Foundation Repair's expert basement lowering solutions. Our dedicated team excels in crafting more spacious and inviting living areas by lowering basement levels. Elevate your home's functionality and comfort with this transformative service.		</p>
 		</div>
 	</div>
 

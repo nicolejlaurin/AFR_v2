@@ -13,7 +13,7 @@ export default () => (
 		Wall Replacement
 		</h4>
 		<p>Count on Affordable Foundation Repair for dependable wall replacement services. Our professionals restore structural integrity, ensuring the stability and longevity of your property. Safeguard your investment with our high-quality solutions.
-		</p>	
+		</p>
 		</div>
 	</div>
 

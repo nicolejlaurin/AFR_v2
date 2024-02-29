@@ -10,10 +10,11 @@ export default () => (
 		<img class="service-split-img" src={Img}></img>
 		<div>
 		<h4>
-		Basement Lowering
+		Basement Finishing
 		</h4>
-		<p>Maximize comfort with Affordable Foundation Repair's expert basement lowering solutions. Our dedicated team excels in crafting more spacious and inviting living areas by lowering basement levels. Elevate your home's functionality and comfort with this transformative service.
-		</p>	
+		<p>
+		Unlock the full potential of your home with our professional basement finishing services. At Affordable Foundation Repair, we specialize in transforming underutilized basements into inviting and functional spaces. Whether you're dreaming of a cozy family room, a home office, a game room, or a stylish entertainment area, our skilled team is here to bring your vision to life.		
+		</p>
 		</div>
 	</div>
 

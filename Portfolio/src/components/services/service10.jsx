@@ -13,7 +13,7 @@ export default () => (
 		Bowing Walls
 		</h4>
 		<p>Secure Foundation with Affordable Foundation Repair our expert service for fixing bowed walls. Our specialists strengthen foundations, ensuring your property's stability and your family's safety. Trust our proven solutions for worry-free results.
-		</p>	
+		</p>
 		</div>
 	</div>
 

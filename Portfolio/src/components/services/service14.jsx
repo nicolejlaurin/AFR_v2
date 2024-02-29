@@ -13,7 +13,7 @@ export default () => (
 		Cracked Waterproofing
 		</h4>
 		<p>Address cracked waterproofing effectively with Affordable Foundation Repair. Our solutions include fixing cracks, enhancing waterproofing for surfaces like basements, roofs, and concrete. Prevent leaks, water damage, and benefit from structural analysis and drainage improvements.
-		</p>	
+		</p>
 		</div>
 	</div>
 

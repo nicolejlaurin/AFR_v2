@@ -13,7 +13,7 @@ export default () => (
 		Sewer Backups
 		</h4>
 		<p>Experience swift restoration with Affordable Foundation Repair's efficient sewer backup service. Our team promptly restores normalcy, providing a clean and worry-free environment. Trust us to handle the situation professionally and expertly.
-		</p>	
+		</p>
 		</div>
 	</div>
 

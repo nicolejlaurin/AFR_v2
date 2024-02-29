@@ -1,10 +1,10 @@
 import React from 'react';
-import Img1 from '../images/unnamed-18.jpg';
+import Img1 from '../images/Waterproofing/waterproofing-exterior-waterproofing-work-basement.jpg';
 import Img2 from '../images/services/Service2.jpg';
-import Img3 from '../images/unnamed-16.jpg';
-import Img4 from '../images/unnamed-3.png';
-import Img5 from '../images/unnamed-17.jpg';
-import Img6 from '../images/unnamed-2.png';
+import Img3 from '../images/Basement lowerimg /underpinning-example.jpeg';
+import Img4 from '../images/Sewer backups/basement-flooding.jpg';
+import Img5 from '../images/Wall replacment/wall-replacement1.jpg';
+import Img6 from '../images/Basement finishing/basement-renovation-scaled.jpg';
 
 import { Link }  from 'react-router-dom';
 
@@ -19,7 +19,7 @@ export default () => (
 
 	<div class="container">
 		<div class="inner-container">
-		<h4>Exterior Waterproofing</h4>
+		<h4>Waterproofing</h4>
     <div class="item pre animated reveal fade-bottom"> <span class="icon feature_box_col_one"></span>
 		<img src={Img1} alt=""></img>
 		<p>Keep your home safe and dry with our expert interior waterproofing solutions, guarding against moisture and leaks to protect your property.</p>
