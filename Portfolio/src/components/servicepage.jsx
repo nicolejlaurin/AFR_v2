@@ -29,7 +29,7 @@ export default () => (
 	<div className='sectionpage-div' >
 
 		<div class="service-split" id="service1">
-			<img class="service-split-img" src={Img}></img>
+			<img class="service-page-img" src={Img}></img>
 			<div>
 			<h4>
 			Foundation WaterProofing
@@ -42,7 +42,7 @@ export default () => (
 		</div>
 
 		<div class="service-split">
-			<img class="service-split-img" src={Img2}></img>
+			<img class="service-page-img" src={Img2}></img>
 			<div>
 			<h4>
 			Foundation Lowering
@@ -54,7 +54,7 @@ export default () => (
 		</div>
 
 		<div class="service-split">
-			<img class="service-split-img" src={Img3}></img>
+			<img class="service-page-img" src={Img3}></img>
 			<div>
 			<h4>
 			Crack Injection Repair
@@ -66,7 +66,7 @@ export default () => (
 		</div>
 
 		<div class="service-split">
-			<img class="service-split-img" src={Img4}></img>
+			<img class="service-page-img" src={Img4}></img>
 			<div>
 				<h4>Window Well
 				</h4>
@@ -77,7 +77,7 @@ export default () => (
 
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img5}></img>
+		<img class="service-page-img" src={Img5}></img>
 		<div>
 		<h4>
 		Sump Pumps
@@ -88,7 +88,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img6}></img>
+		<img class="service-page-img" src={Img6}></img>
 		<div>
 		<h4>
 		Weeping Tiles
@@ -100,7 +100,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img7}></img>
+		<img class="service-page-img" src={Img7}></img>
 		<div>
 		<h4>
 		Basement Window
@@ -111,7 +111,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img8}></img>
+		<img class="service-page-img" src={Img8}></img>
 		<div>
 		<h4>
 		Structural Repairs
@@ -122,7 +122,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img9}></img>
+		<img class="service-page-img" src={Img9}></img>
 		<div>
 		<h4>
 		Basement Lowering
@@ -133,7 +133,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img10}></img>
+		<img class="service-page-img" src={Img10}></img>
 		<div>
 		<h4>
 		Bowing Walls
@@ -144,7 +144,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img11}></img>
+		<img class="service-page-img" src={Img11}></img>
 		<div>
 		<h4>
 		Concrete Repair
@@ -155,7 +155,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img12}></img>
+		<img class="service-page-img" src={Img12}></img>
 		<div>
 		<h4>
 		Wall Replacement
@@ -166,7 +166,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img13}></img>
+		<img class="service-page-img" src={Img13}></img>
 		<div>
 		<h4>
 		Sewer Backups
@@ -177,7 +177,7 @@ export default () => (
 	</div>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img14}></img>
+		<img class="service-page-img" src={Img14}></img>
 		<div>
 		<h4>
 		Cracked Waterproofing

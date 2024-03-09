@@ -1,13 +1,12 @@
 import React from 'react';
-import Img from '../../images/underpinning.png';
-import { FaCaretRight, FaChevronRight} from 'react-icons/fa';
-
+import Img1 from '../../images/Basement finishing/Basement-Renovation-1.jpg';
+import Img2 from '../../images/Basement finishing/Basement-Renovation-2.jpg';
+import Img3 from '../../images/Basement finishing/Basement-Renovation-3.png';
 
 export default () => (
 	<div className='section3-CN'>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img}></img>
 		<div>
 		<h4>
 		Basement Finishing
@@ -17,6 +16,13 @@ export default () => (
 		</p>
 		</div>
 	</div>
-
+	<div className='editorial-template'>
+		<hr className="editorial-underline"></hr>
+		<div class="project-split">
+		<img class="service-split-img" src={Img1}></img>
+		<img class="service-split-img" src={Img2}></img>
+		<img class="service-split-img" src={Img3}></img>
+	</div>
+</div>
 	</div>
 );

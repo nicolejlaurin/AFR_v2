@@ -1,5 +1,4 @@
 import React from 'react';
-
 export default () => (
 	<div className='Mid1'>
 		<h4>

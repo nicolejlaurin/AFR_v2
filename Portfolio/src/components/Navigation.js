@@ -102,7 +102,7 @@ function myFunction() {
         <li>
           <div class="dropdown">
 
-             <NavLink to="/ServicePage" className='dropbtn' id="drop-port">Services‎ ‎ <i class="fa fa-caret-down">‎ ‎ ‎ ‎ ‎ ‎ ‎ </i></NavLink>
+             <NavLink to="/ServicePage" className='dropbtn' id="drop-port">Services‎ ‎ <i class="fa fa-caret-down">‎ ‎ ‎ ‎ </i></NavLink>
 
             <div class="dropdown-content" id="myDropdown" aria-labelledby="navbarDropdown" onhov>
                   <NavLink to="/services/service1" className='nav-links drop' onClick={closeMobileMenu}>Foundation Waterproofing</NavLink>

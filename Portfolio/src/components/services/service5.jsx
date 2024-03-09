@@ -1,12 +1,11 @@
 import React from 'react';
-import Img from '../../images/underpinning.png';
-import { FaCaretRight, FaChevronRight} from 'react-icons/fa';
+import Img1 from '../../images/Sump pump/sump-pump-liner-install-lg.jpg';
+import Img2 from '../../images/Sump pump/Where-Should-a-Sump-Pump-be-Placed-in-a-Basement.jpeg';
 
 export default () => (
 	<div className='section3-CN'>
 
 	<div class="service-split">
-		<img class="service-split-img" src={Img}></img>
 		<div>
 		<h4>
 		Sump Pumps
@@ -15,6 +14,12 @@ export default () => (
 		</p>
 		</div>
 	</div>
-
+	<div className='editorial-template'>
+		<hr className="editorial-underline"></hr>
+		<div class="project-split">
+		<img class="service-split-img" src={Img1}></img>
+		<img class="service-split-img" src={Img2}></img>
+	</div>
+</div>
 	</div>
 );

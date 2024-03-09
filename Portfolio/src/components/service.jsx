@@ -1,10 +1,10 @@
 import React from 'react';
 import Img1 from '../images/Waterproofing/waterproofing-exterior-waterproofing-work-basement.jpg';
 import Img2 from '../images/services/Service2.jpg';
-import Img3 from '../images/Basement lowerimg /underpinning-example.jpeg';
+import Img3 from '../images/Basement lowering/underpinning-example.jpeg';
 import Img4 from '../images/Sewer backups/basement-flooding.jpg';
 import Img5 from '../images/Wall replacment/wall-replacement1.jpg';
-import Img6 from '../images/Basement finishing/basement-renovation-scaled.jpg';
+import Img6 from '../images/Basement finishing/Basement-Renovation-1.jpg';
 
 import { Link }  from 'react-router-dom';
 
