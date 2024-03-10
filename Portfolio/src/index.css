@@ -1216,7 +1216,6 @@ size: 20;
 
 @media only screen and (max-width: 500px) {
   .Mid1 {
-    background-image: url('./images/about.png');
     height:20rem;
     width: 100%;
   }
