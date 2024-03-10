@@ -1188,7 +1188,7 @@ size: 20;
 /*--------------------------Mid section --------------------------*/
 
 .Mid1 {
-  background-image: url('./images/wood.jpg');
+  background-image: url('./images/grey.jpg');
 	height:15rem;
 	width: 100%;
 	-webkit-background-size: cover;
@@ -1199,7 +1199,7 @@ size: 20;
 	background-repeat: no-repeat;
 	justify-content: center;
 	background-attachment: fixed;
-	color: white;
+	color: rgb(0, 0, 0);
 	opacity: 0.7;
   background-attachment: scroll !important;
 
