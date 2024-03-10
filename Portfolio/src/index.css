@@ -705,9 +705,9 @@ body p{
 }
 
 .about-section h4 {
-	font-size: 47px;
+	font-size: 38px;
 	font-weight: 200;
-	padding: 2rem 5rem 1rem 5rem;
+	padding: 1rem 5rem 1rem 5rem;
   margin-bottom: 0;
 }
 
@@ -727,7 +727,6 @@ body p{
   width: 30rem;
   padding:0rem 0rem 0rem 0rem;
   margin:0;
-
 }
 
 .button2 {
@@ -880,7 +879,7 @@ size: 20;
 .service-text h4 {
 	width: 30%;
   text-align: left;
-	font-size: 40px;
+	font-size: 38px;
 	font-weight: 200;
 	padding: 4rem 4rem 0rem 8rem;
 	resize:none;
@@ -1084,6 +1083,13 @@ size: 20;
   	font-weight: 200;
   	padding: 1rem 0rem 1rem 0rem;
   }
+  .service-button{
+      align-items: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 310px;    
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -1170,15 +1176,6 @@ size: 20;
     resize:none;
     margin: auto;
 		color: #f6e176;
-  }
-
-  .service-button {
-    text-decoration: none;
-    font-size: 11px;
-    align-items: center;
-    padding:0.8rem 2rem 0.8rem 2rem;
-    margin: 1.5rem 2rem 1rem 2rem;
-    width: 13rem;
   }
 
 }
@@ -1880,7 +1877,7 @@ a {/* this is link to service page titles*/
 
 
 .contact h4 {
-  font-size: calc(20px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
+	font-size: 38px;
 	font-weight: 600;
 	padding: 0rem 3rem 0rem 3rem;
 	text-align: left;
