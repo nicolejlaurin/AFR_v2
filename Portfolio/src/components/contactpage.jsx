@@ -17,7 +17,7 @@ export default () => (
 			id="contact"
 			encType="multipart/form-data"
 			autoComplete="off"
-			action="https://formsubmit.co/coldglobalenterprises@gmail.com"
+			action="https://formsubmit.co/Menafi@sympatico.ca"
 			method="POST"
 			data-netlify-recaptcha="true"
 			data-netlify="true"
@@ -25,7 +25,7 @@ export default () => (
 			data-netlify-honeypot="bot-field">
 			<input type="hidden" name="_subject" value="New email from Portfolio!"></input>
 					<input type="hidden" name="_captcha" value="false"></input>
-					<input type="hidden" name="_next" value="https://coldglobalenterprises.com/thankyou"></input>
+					<input type="hidden" name="_next" value="https://affordablefoundationrepair.ca"></input>
 
 			<div hidden>
 				<input name="bot-field"></input>
