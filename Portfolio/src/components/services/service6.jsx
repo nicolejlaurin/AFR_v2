@@ -1,5 +1,6 @@
 import React from 'react';
 import Img1 from '../../images/Weeping tiles/weeping_tiles.jpeg';
+import { Link }  from 'react-router-dom';
 
 
 export default () => (
@@ -20,5 +21,8 @@ export default () => (
 		<img class="service-split-img" src={Img1}></img>
 	</div>
 </div>
+<Link to='/servicepage'>
+			<button className="see-more-button">See More Services</button>
+	</Link>
 	</div>
 );

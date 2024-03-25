@@ -30,7 +30,9 @@ export default () => (
 	<div className='sectionpage-div' >
 
 		<div class="service-split" id="service1">
-			<img class="service-page-img" src={Img}></img>
+		<Link to='/services/service1' class='service-link-img' >
+		<img class="service-page-img" src={Img}></img>
+			</Link>
 			<div>
 			<Link to='/services/service1' class='service-link' >
 			<h4>
@@ -44,7 +46,9 @@ export default () => (
 		</div>
 
 		<div class="service-split">
+			<Link to='/services/service2' class='service-link-img' >
 			<img class="service-page-img" src={Img2}></img>
+			</Link>
 			<div>
 			<Link to='/services/service2' class='service-link' >	
 			<h4>
@@ -58,7 +62,9 @@ export default () => (
 		</div>
 
 		<div class="service-split">
+			<Link to='/services/service3' class='service-link-img' >
 			<img class="service-page-img" src={Img3}></img>
+			</Link>
 			<div>
 			<Link to='/services/service3' class='service-link'>	
 			<h4>
@@ -72,7 +78,9 @@ export default () => (
 		</div>
 
 		<div class="service-split">
+			<Link to='/services/service4' class='service-link-img' >
 			<img class="service-page-img" src={Img4}></img>
+			</Link>
 			<div>
 			<Link to='/services/service4' class='service-link'>	
 				<h4>Window Well
@@ -85,7 +93,9 @@ export default () => (
 
 
 	<div class="service-split">
+		<Link to='/services/service5' class='service-link-img' >
 		<img class="service-page-img" src={Img5}></img>
+		</Link>
 		<div>
 		<Link to='/services/service5' class='service-link'>
 		<h4>
@@ -98,7 +108,9 @@ export default () => (
 	</div>
 
 	<div class="service-split">
+		<Link to='/services/service6' class='service-link-img' >
 		<img class="service-page-img" src={Img6}></img>
+		</Link>
 		<div>
 		<Link to='/services/service6' class='service-link'>
 		<h4>
@@ -110,7 +122,9 @@ export default () => (
 	</div>
 
 	<div class="service-split">
+		<Link to='/services/service7' class='service-link-img' >
 		<img class="service-page-img" src={Img7}></img>
+		</Link>
 		<div>
 		<Link to='/services/service7' class='service-link'>
 		<h4>
@@ -123,7 +137,9 @@ export default () => (
 	</div>
 
 	<div class="service-split">
+		<Link to='/services/service8' class='service-link-img' >
 		<img class="service-page-img" src={Img8}></img>
+		</Link>
 		<div>
 		<Link to='/services/service8' class='service-link'>
 		<h4>
@@ -136,7 +152,9 @@ export default () => (
 	</div>
 
 	<div class="service-split">
+		<Link to='/services/service9' class='service-link-img' >
 		<img class="service-page-img" src={Img9}></img>
+		</Link>
 		<div>
 		<Link to='/services/service9' class='service-link'>
 		<h4>
@@ -150,7 +168,9 @@ export default () => (
 	</div>
 
 	<div class="service-split">
+		<Link to='/services/service10' class='service-link-img' >
 		<img class="service-page-img" src={Img10}></img>
+		</Link>
 		<div>
 		<Link to='/services/service10' class='service-link'>
 		<h4>
@@ -163,7 +183,9 @@ export default () => (
 	</div>
 
 	<div class="service-split">
+		<Link to='/services/service11' class='service-link-img' >
 		<img class="service-page-img" src={Img11}></img>
+		</Link>
 		<div>
 		<Link to='/services/service11' class='service-link'>
 		<h4>
@@ -176,7 +198,9 @@ export default () => (
 	</div>
 
 	<div class="service-split">
+		<Link to='/services/service12' class='service-link-img' >
 		<img class="service-page-img" src={Img12}></img>
+		</Link>
 		<div>
 		<Link to='/services/service12' class='service-link'>	
 		<h4>
@@ -189,7 +213,9 @@ export default () => (
 	</div>
 
 	<div class="service-split">
+		<Link to='/services/service13' class='service-link-img' >
 		<img class="service-page-img" src={Img13}></img>
+		</Link>
 		<div>
 		<Link to='/services/service13' class='service-link'>	
 		<h4>
@@ -202,7 +228,9 @@ export default () => (
 	</div>
 
 	<div class="service-split">
+		<Link to='/services/service14' class='service-link-img' >
 		<img class="service-page-img" src={Img14}></img>
+		</Link>
 		<div>
 		<Link to='/services/service14' class='service-link'>	
 		<h4>

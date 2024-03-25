@@ -2,7 +2,7 @@ import React from 'react';
 import Img1 from '../../images/Waterproofing/foundationg-waterproofing.jpg';
 import Img2 from '../../images/Waterproofing/foundationg-waterproofing2.jpg';
 import Img3 from '../../images/Waterproofing/waterproofing-exterior-waterproofing-work-basement.jpg';
-
+import { Link }  from 'react-router-dom';
 export default () => (
 	<div className='section3-CN' >
 			<div>
@@ -23,7 +23,9 @@ export default () => (
 		<img class="service-split-img" src={Img3}></img>
 		</div>
 	</div>
+	<Link to='/servicepage'>
+			<button className="see-more-button">See More Services</button>
+	</Link>
 	</div>
-
 	
  );

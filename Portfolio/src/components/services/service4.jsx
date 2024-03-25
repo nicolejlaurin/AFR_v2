@@ -2,6 +2,8 @@ import React from 'react';
 import Img1 from '../../images/Window well/building-for-house-basement-concrete-construction-2022-11-12-11-19-04-utc.jpg';
 import Img2 from '../../images/Window well/windowswell-on-basement-construction-from-window.jpg';
 import Img3 from '../../images/Window well/WindowWell.jpg';
+import { Link }  from 'react-router-dom';
+
 export default () => (
 	<div className='section3-CN'>
 		<div class="service-split">
@@ -20,5 +22,8 @@ export default () => (
 		<img class="service-split-img" src={Img3}></img>
 	</div>
 </div>
+<Link to='/servicepage'>
+			<button className="see-more-button">See More Services</button>
+	</Link>
 	</div>
 );

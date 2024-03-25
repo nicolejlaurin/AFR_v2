@@ -177,6 +177,14 @@ body p{
 	padding-right: 1em;
 	box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.5);
 	height: 6rem;
+  position: fixed;
+  display: block;
+}
+/* Sticky Class Designed to provide Sticky Property to the Navbar using JavaScript */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar-left{
@@ -549,7 +557,7 @@ body p{
     min-height: 70vh;
     background-size: 100rem;
     width: auto;
-    height:45rem;
+    background-position: 40% 60%;
   }
 
   .landing h2 {
@@ -616,7 +624,10 @@ body p{
 }
 
 @media only screen and (max-width: 650px) {
-	.landing h2 {
+  .landing{
+    background-position: 60% 60%;
+  }
+  .landing h2 {
 		font-size: 35px;
 	  padding: 2rem 0rem 0rem 0rem;
 	  font-weight: 500;
@@ -652,7 +663,9 @@ body p{
 }
 
 @media only screen and (max-width: 500px) {
-
+  .landing{
+    background-position: 60% 60%;
+  }
 	.landing h2 {
 		font-size: 32px;
 	  padding: 2rem 0rem 0rem 0rem;
@@ -1028,6 +1041,31 @@ size: 20;
 }
 
 
+.see-more-button {
+  font-family: Avenir-light;
+	border:none;
+	padding:0.8rem 2rem 0.8rem 2rem;
+	font-size:15px;
+  width: 15rem;
+  background-color: black;
+  color: white;
+  border-radius: 1px;
+  position:absolute;
+  right: 10rem;
+  left: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.see-more-button:hover {
+  color: white;
+  background-color: rgb(76, 75, 75);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
 @media only screen and (max-width: 980px) {
 
   .item p{
@@ -1178,6 +1216,24 @@ size: 20;
 		color: #f6e176;
   }
 
+
+.see-more-button {
+  font-family: Avenir-light;
+	border:none;
+	padding:0.8rem 2rem 0.8rem 2rem;
+	font-size:15px;
+  width: 15rem;
+  background-color: black;
+  color: white;
+  border-radius: 1px;
+  position:absolute;
+  right: 2rem;
+  left: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
 }
 
 /*----------------------------------------------------------------*/
@@ -1233,6 +1289,12 @@ a {/* this is link to service page titles*/
 .service-link :hover {
   color: #f6e176;
   transform: scaleY(1.1);
+  transition: 0.3s;
+}
+
+.service-link-img :hover {
+  color: #f6e176;
+  transform: scale(1.1);
   transition: 0.3s;
 }
 
@@ -2186,10 +2248,8 @@ fieldset {
   display:flex;
   font-size: 30px;
 	font-weight: 600;
-	padding: 1rem 0rem 5rem 0rem;
+	padding: 1rem 10rem 5rem 10rem;
   text-align: center;
-  margin-left: 10rem;
-  margin-right: 10rem;
   justify-content: center;
 }
 .aboutpage-text{
@@ -2249,36 +2309,42 @@ fieldset {
   text-align: center;
 }
 #about-img{
-  height: 400px;
-  resize: none;
+  width: 30rem;
+  height: 26rem;
+  padding:0rem 0rem 0rem 0rem;
+  margin:0;
 }
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 900px) {
 
   .aboutpage-split{
     display:block;
     align-items: center;
-    padding-left: 20px;
-  }
-  .aboutpage-split img{
-    height: 50%;
-    width: 50%;
-    display: block;
+    display:flex;
+    font-size: 30px;
+    padding: 1rem 2.5rem 5rem 2.5rem;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+  #about-img{
+    resize: none;
     margin-left: auto;
     margin-right: auto;
-  }
-  .aboutpage-text{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
+    width: 25rem;
   }
+
   .abt-back p {
   	padding: 1rem 3rem 0rem 3rem;
     font-size: 18px;
   }
   .aboutpage-CN h4 {
     font-size: calc(30px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
-    padding: 0rem 0rem 1rem 0rem;
+    padding: 1rem 0rem 2rem 0rem;
   	font-weight: 300;
     margin-bottom: 0;
   }
@@ -2289,35 +2355,47 @@ fieldset {
   .aboutpage-text p{
     padding: 1rem 0rem 0rem 0rem;
     font-size: 18px;
-  }
-  .abt-p{
-    display:inline;
-    resize: none;
-    text-align: center;
-  }
-  .abt-back2{
-  	padding: 0rem 3rem 4rem 3rem;
-  }
+    }
 }
 
 @media only screen and (max-width: 500px) {
 
-    .aboutpage-split{
-      display:block;
+  .aboutpage-split{
+    display:block;
+    align-items: center;
+    display:flex;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+    #about-img{
+      resize: none;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
       align-items: center;
+      width: 80%;
+      height: 80%;
     }
-    .aboutpage-split img{
-      height: 20rem;
-      width: 20rem;
-      justify-content: center;
-      padding: 0rem 0rem 3rem 0rem;
+    
+    .aboutpage-CN h4 {
+      font-size: calc(30px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
+      padding: 1rem 0rem 3rem 0rem;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+    .aboutpage-text{
+      padding: 0rem 0rem 0rem 0rem;
+      text-align: left;
+      margin-top: 0;
+    }
 
-    }
     .aboutpage-text p {
       font-size: 14px;
       width: 305px;
       resize: none;
-      padding: 2rem 0rem 0rem 0rem;
+      padding: 0rem 0rem 0rem 0rem;
       margin-top: 0;
       text-align: left;
     }
@@ -2326,7 +2404,6 @@ fieldset {
       font-size: 14px;
     }
 }
-
 
 @media only screen and (max-width: 300px) {
 
@@ -2350,7 +2427,8 @@ fieldset {
         width: 15rem;
         justify-content: center;
         padding: 0rem 0rem 2rem 0rem;
-        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
       }
 
       .abt-back p {
@@ -2425,7 +2503,7 @@ fieldset {
 	background-color: white;
 	color: black;
   align-content: flex-start;
-  padding: 11rem 0rem 6rem 0rem;
+  padding: 8em 0rem 8rem 0rem;
 }
 
 .section3-CN h4 {
@@ -2483,9 +2561,8 @@ fieldset {
   }
 
   .Services p {
-  	font-size: calc(8px + (60 - 40) * ((100vw - 300px) / (2000 - 300)));
+  	font-size: calc(13px + (60 - 40) * ((100vw - 300px) / (2000 - 300)));
   	font-weight: 80;
-    font-style: italic;
     padding: 1rem 0rem 1rem 0rem;
   }
   .service-split{
@@ -2500,7 +2577,7 @@ fieldset {
     padding: 0rem 2rem 0rem 2rem;
   }
   .section3-CN {
-    padding: 7rem 0rem 6rem 0rem;
+    padding: 7rem 0rem 8rem 0rem;
   }
 
 }
@@ -2510,7 +2587,7 @@ fieldset {
     flex-direction: column;
     align-content: flex-start;
     text-align: center;
-    padding: 7rem 1rem 0rem 1rem;
+    padding: 7rem 1rem 1rem 1rem;
   }
   .Services h4 {
   	font-size: calc(30px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link }  from 'react-router-dom';
 import Img1 from '../../images/Basement lowering/underpinning-example.jpeg';
 import Img2 from '../../images/Basement lowering/bench-footing-lowering.jpg';
 import Img3 from '../../images/Basement lowering/empty-under-construction-view-on-concrete-floor-co-2022-11-12-11-25-17-utc.jpg';
@@ -21,6 +22,8 @@ export default () => (
 		<img class="service-split-img" src={Img3}></img>
 	</div>
 </div>
-
+<Link to='/servicepage'>
+			<button className="see-more-button">See More Services</button>
+	</Link>
 	</div>
 );

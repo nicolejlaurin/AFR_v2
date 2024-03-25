@@ -1,6 +1,7 @@
 import React from 'react';
 import Img1 from '../../images/Sump pump/sump-pump-liner-install-lg.jpg';
 import Img2 from '../../images/Sump pump/Where-Should-a-Sump-Pump-be-Placed-in-a-Basement.jpeg';
+import { Link }  from 'react-router-dom';
 
 export default () => (
 	<div className='section3-CN'>
@@ -21,5 +22,8 @@ export default () => (
 		<img class="service-split-img" src={Img2}></img>
 	</div>
 </div>
+<Link to='/servicepage'>
+			<button className="see-more-button">See More Services</button>
+	</Link>
 	</div>
 );

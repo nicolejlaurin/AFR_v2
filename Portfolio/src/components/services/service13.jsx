@@ -2,6 +2,7 @@ import React from 'react';
 import Img1 from '../../images/Sewer backups/basement-flooding.jpg';
 import Img2 from '../../images/Sewer backups/basement-water-backup-3.jpg';
 import Img3 from '../../images/Sewer backups/Sewer-Backup-Problem.png';
+import { Link }  from 'react-router-dom';
 
 
 export default () => (
@@ -24,5 +25,8 @@ export default () => (
 		<img class="service-split-img" src={Img3}></img>
 	</div>
 </div>
+<Link to='/servicepage'>
+			<button className="see-more-button">See More Services</button>
+	</Link>
 	</div>
 );

@@ -1,5 +1,6 @@
 import React from 'react';
 import Img1 from '../../images/Crack water proofing/cracked-waterproofing.jpg';
+import { Link }  from 'react-router-dom';
 
 export default () => (
 	<div className='section3-CN'>
@@ -19,5 +20,8 @@ export default () => (
 		<img class="service-split-img" src={Img1}></img>
 	</div>
 </div>
+<Link to='/servicepage'>
+			<button className="see-more-button">See More Services</button>
+	</Link>
 	</div>
 );

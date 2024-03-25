@@ -4,31 +4,24 @@ import Img_logo from '../images/logo-AFR.png';
 import { Button } from './Button.js';
 import { useLocation } from "react-router";
 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
+//var prevScrollpos = window.pageYOffset;
+// window.onscroll = function() {
+//   var currentScrollPos = window.pageYOffset;
 
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navbar").style.top = "0";
-    } else {
-      document.getElementById("navbar").style.top = "-100px";
-    }
-    prevScrollpos = currentScrollPos;
-    if (currentScrollPos === (0, 0)){
-      document.getElementById("navbar").style.top = "0";
+//     if (prevScrollpos > currentScrollPos) {
+//       document.getElementById("navbar").style.top = "0";
+//     } else {
+//       document.getElementById("navbar").style.top = "-100px";
+//     }
+//     prevScrollpos = currentScrollPos;
+//     if (currentScrollPos === (0, 0)){
+//       document.getElementById("navbar").style.top = "0";
 
     
-    }
-  }
+//     }
+//   }
 
-const ScrollToTop = (props) => {
-  const location = useLocation();
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
 
-  return <>{props.children}</>
-};
 
 function Navigation() {
   const [click, setClick] = useState(false);
@@ -89,8 +82,6 @@ function myFunction() {
         <i className={click ? 'fa fa-times':'fa fa-bars'}></i>
       </div>
       <div class="navbar-right">
-
-        <ScrollToTop>
         <ul className={click ? 'nav-menu active':'nav-menu'}>
         <li>
           <NavLink to="/" className='nav-links' onClick={closeMobileMenu}>Home</NavLink>
@@ -128,7 +119,6 @@ function myFunction() {
         </li>
 
         </ul>
-      </ScrollToTop>
       </div>
 
 </nav>
