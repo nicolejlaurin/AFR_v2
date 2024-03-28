@@ -626,7 +626,6 @@ body p{
 
 @media only screen and (max-width: 650px) {
   .landing{
-    background-position: 60% 60%;
   }
   .landing h2 {
 		font-size: 35px;
@@ -665,7 +664,7 @@ body p{
 
 @media only screen and (max-width: 500px) {
   .landing{
-    background-position: 60% 60%;
+
     background-size:cover;
     background-attachment:fixed;
   }
