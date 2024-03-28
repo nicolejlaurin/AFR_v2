@@ -487,6 +487,7 @@ body p{
 	justify-content: center;
 	background-attachment: fixed;
 	color: white;
+  background-attachment:initial;
 }
 .landing-info{
   display: flex;
@@ -665,6 +666,8 @@ body p{
 @media only screen and (max-width: 500px) {
   .landing{
     background-position: 60% 60%;
+    background-size:cover;
+    background-attachment:fixed;
   }
 	.landing h2 {
 		font-size: 32px;
