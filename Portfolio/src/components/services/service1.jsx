@@ -5,6 +5,7 @@ import Img3 from '../../images/Waterproofing/waterproofing-exterior-waterproofin
 import { Link }  from 'react-router-dom';
 export default () => (
 	<div className='section3-CN' >
+		<div class="service-split">
 			<div>
 				<h4>
 				Foundation WaterProofing
@@ -13,7 +14,7 @@ export default () => (
 				Experience effective protection with our Affordable Foundation Repair basement waterproofing services. Our skilled team employs a variety of techniques, such as surface sealing, drainage system installation, waterproof coatings, and crack repairs. Safeguard your foundation from water damage and potential structural issues with our comprehensive solutions.
 				</p>
 			</div>
-
+		</div>
 	<div className='editorial-template'>
 	
 		<hr className="editorial-underline"></hr>

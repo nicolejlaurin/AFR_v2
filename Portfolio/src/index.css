@@ -385,7 +385,7 @@ body p{
 
 .dropdown-content .nav-links{
   font-size: 14px;
-  padding: 0.3rem 0rem 0.3rem 0rem;
+  padding: 0.5rem 0rem 0rem 1.8rem;
 }
 
 }
@@ -413,7 +413,6 @@ body p{
   }
   /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
-  font-size: 15px;
   border: none;
   outline: none;
   background-color: white;
@@ -429,7 +428,7 @@ body p{
 }
 .dropdown-content .nav-links{
   font-size: 14px;
-  padding: 0.3rem 0rem 0.3rem 0rem;
+  padding: 0.3rem 0rem 0.3rem 1.8rem;
 }
 
 }
