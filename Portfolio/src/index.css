@@ -625,10 +625,11 @@ body p{
 
 @media only screen and (max-width: 650px) {
   .landing{
-    background-size: cover;
-    background-position: center;
-    background-size:cover;
-    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+    background-size: cover; /* This ensures the background image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
     background-image: url('./images/landing-mobile.jpeg');
   }
   .landing h2 {
@@ -668,7 +669,11 @@ body p{
 
 @media only screen and (max-width: 500px) {
   .landing{
-    background-size:cover;
+    margin: 0;
+    padding: 0;
+    background-size: cover; /* This ensures the background image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
     background-image: url('./images/landing-mobile.jpeg');
 
   }
