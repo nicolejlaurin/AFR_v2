@@ -6,9 +6,32 @@ import Img3 from '../images/unnamed-16.jpg';
 import Img4 from '../images/unnamed-3.png';
 import Img5 from '../images/unnamed-17.jpg';
 import Img6 from '../images/unnamed-2.png';
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+
+import AwesomeSliderStyles from 'react-awesome-slider/dist/styles.css';
+
+import withAutoplay from 'react-awesome-slider/dist/autoplay' 
+
+
 
 
 export default function App() {
+  const AutoplaySlider = withAutoplay(AwesomeSlider)
+
+
+
+  return(
+
+    <div>
+      
+    <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25394191' frameborder='0' width='100%' height='500'></iframe>
+     </div>
+
+  )
+};
+
+/*
   const [[activeIndex, direction], setActiveIndex] = useState([0, 0]);
  // const items = ['1', '2', '3', '4', '5','6'];
 
@@ -37,13 +60,13 @@ export default function App() {
   };
 
   return (
-    <div className="main-wrapper">      
+    <div className="main-wrapper">
+
     <div className='carousel-div'>
     <h2>Let us help you safeguard your property with reliable and reasonably priced foundation repair solutions. Rely on us to lay the groundwork for your property's future!</h2>
     </div>
       <div className="wrapper">
 
-        {/*AnimatePresence is necessary to show the items after they are deleted because only max. 3 are shown*/}
         <AnimatePresence mode="popLayout" initial={false}>
           {visibleItems.map((item) => {
             // The layout prop makes the elements change its position as soon as a new one is added
