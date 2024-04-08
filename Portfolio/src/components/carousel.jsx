@@ -25,7 +25,7 @@ export default function App() {
 
     <div>
       
-    <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25394191' frameborder='0' width='100%' height='470'></iframe>
+    <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25394191' frameborder='0' width='100%' height='360'></iframe>
      </div>
 
   )
