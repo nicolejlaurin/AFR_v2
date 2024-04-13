@@ -13,7 +13,7 @@ export default function About() {
     <div class='about-split animated reveal fade-bottom'>
       <div class='about-split-left'>
         <h4>
-        Getting to know Affordable Foundation Repair!
+        Getting to know Affordable Foundation Repair
         </h4>
     		<p>
           At Affordable Foundation Repair, we understand the critical role a strong and stable foundation plays in ensuring the safety and longevity of your property. With years of experience in the industry, we have built a solid reputation for providing top-notch foundation repair services at competitive prices.

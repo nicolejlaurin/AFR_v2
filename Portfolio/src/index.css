@@ -466,11 +466,13 @@ body p{
     top:0;
     left:0;
     z-index:1;
+
+
 }
 .logo{
   width: 20rem;
   height: 20rem;
-  padding: 6rem 0 0 0rem;
+  padding: 5rem 0 0 0rem;
 }
 
 .landing {
@@ -486,15 +488,15 @@ body p{
 	justify-content: center;
 	background-attachment: fixed;
 	color: white;
-  background-attachment:initial;
 }
 .landing-info{
   display: flex;
   flex-direction: column;
+
 }
 .landing h2 {
 	font-size: 65px;
-  padding: 3.5rem 2rem 0rem 1rem;
+  padding: 1rem 0rem 0rem 0rem;
   font-weight: 500;
 	line-height: 80px;
 	width: 100%;
@@ -521,6 +523,7 @@ body p{
   width: 50%;
 }
 
+
 .button1 {
   font-family: Avenir-light;
 
@@ -539,7 +542,7 @@ body p{
   left: 10rem;
   margin-left: auto;
   margin-right: auto;
-  top: 36rem;
+  top: 34rem;
 }
 
 .button1:hover {
@@ -586,12 +589,13 @@ body p{
   	font-size:12px;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .landing {
     min-height: 70vh;
     background-size: 100rem;
     width: auto;
-    height:45rem;  
+    height: 40rem;
   }
   .landing h2 {
     font-size: 40px;
@@ -624,14 +628,11 @@ body p{
 }
 
 @media only screen and (max-width: 650px) {
-  .landing{
-    margin: 0;
-    padding: 0;
-    background-size: cover; /* This ensures the background image covers the entire viewport */
-    background-repeat: no-repeat; /* Prevents the background image from repeating */
-    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
-    background-image: url('./images/landing-mobile.jpeg');
+  .landing {
+    min-height: 90vh;
+    width: auto;
   }
+
   .landing h2 {
 		font-size: 35px;
 	  padding: 2rem 0rem 0rem 0rem;
@@ -668,15 +669,11 @@ body p{
 }
 
 @media only screen and (max-width: 500px) {
-  .landing{
-    margin: 0;
-    padding: 0;
-    background-size: cover; /* This ensures the background image covers the entire viewport */
-    background-repeat: no-repeat; /* Prevents the background image from repeating */
-    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
-    background-image: url('./images/landing-mobile.jpeg');
-
+  .landing {
+    min-height: 90vh;
+    width: auto;
   }
+
 	.landing h2 {
 		font-size: 32px;
 	  padding: 2rem 0rem 0rem 0rem;
@@ -1044,8 +1041,8 @@ size: 20;
 }
 
 .container-button:hover {
-  background-color: #f8eba8;
-  color: black;
+  background-color: #ffffff;
+  color: rgb(76, 75, 75);
 	-webkit-transition:ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
