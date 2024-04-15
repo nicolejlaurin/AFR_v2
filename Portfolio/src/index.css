@@ -478,7 +478,7 @@ body p{
 .landing {
 	height:45rem;
 	width: 100%;
-	background-image: url('./images/landing.png');
+	background-image: url('./images/landing.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -556,12 +556,7 @@ body p{
 
 
 @media only screen and (max-width: 1000px) {
-  .landing {
-    min-height: 70vh;
-    background-size: 100rem;
-    width: auto;
-    background-position: 40% 60%;
-  }
+
 
   .landing h2 {
     font-size: 47px;
@@ -629,8 +624,9 @@ body p{
 
 @media only screen and (max-width: 650px) {
   .landing {
-    min-height: 90vh;
     width: auto;
+    background-position: 0rem;
+
   }
 
   .landing h2 {
