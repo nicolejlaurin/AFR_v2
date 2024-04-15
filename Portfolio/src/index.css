@@ -623,11 +623,6 @@ body p{
 }
 
 @media only screen and (max-width: 650px) {
-  .landing {
-    width: auto;
-    background-position: 0rem;
-
-  }
 
   .landing h2 {
 		font-size: 35px;
@@ -668,6 +663,7 @@ body p{
   .landing {
     min-height: 90vh;
     width: auto;
+    background-size: 100% 100%; 
   }
 
 	.landing h2 {
