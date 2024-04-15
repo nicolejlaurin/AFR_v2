@@ -663,7 +663,7 @@ body p{
   .landing {
     min-height: 90vh;
     width: auto;
-    background-size: 300% 100%; 
+    background-size: cover; 
     background-position: center center; /* Center the image */
 
   }
