@@ -1,35 +1,36 @@
-import { AnimatePresence, motion } from 'framer-motion';
-import { useState } from 'react';
-import Img1 from '../images/unnamed-18.jpg';
-import Img2 from '../images/services/Service2.jpg';
-import Img3 from '../images/unnamed-16.jpg';
-import Img4 from '../images/unnamed-3.png';
-import Img5 from '../images/unnamed-17.jpg';
-import Img6 from '../images/unnamed-2.png';
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
 
-import AwesomeSliderStyles from 'react-awesome-slider/dist/styles.css';
+// import { AnimatePresence, motion } from 'framer-motion';
+// import { useState } from 'react';
+// import Img1 from '../images/unnamed-18.jpg';
+// import Img2 from '../images/services/Service2.jpg';
+// import Img3 from '../images/unnamed-16.jpg';
+// import Img4 from '../images/unnamed-3.png';
+// import Img5 from '../images/unnamed-17.jpg';
+// import Img6 from '../images/unnamed-2.png';
+// import AwesomeSlider from 'react-awesome-slider';
+// import 'react-awesome-slider/dist/styles.css';
 
-import withAutoplay from 'react-awesome-slider/dist/autoplay' 
+// import AwesomeSliderStyles from 'react-awesome-slider/dist/styles.css';
 
-
-
-
-export default function App() {
-  const AutoplaySlider = withAutoplay(AwesomeSlider)
+// import withAutoplay from 'react-awesome-slider/dist/autoplay' 
 
 
 
-  return(
 
-    <div>
+// export default function App() {
+//   const AutoplaySlider = withAutoplay(AwesomeSlider)
+
+
+
+//   return(
+
+//     <div>
       
-    <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25394191' frameborder='0' width='100%' height='350'></iframe>
-     </div>
+//     <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/25394191' frameborder='0' width='100%' height='350'></iframe>
+//      </div>
 
-  )
-};
+//   )
+// };
 
 /*
   const [[activeIndex, direction], setActiveIndex] = useState([0, 0]);
@@ -257,4 +258,140 @@ return(
 };
 
 //export default CarouselPage;
-*/
+*/// Carousel.jsx
+import React, { useEffect, useMemo, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+const buildStars = (rating) => {
+  const safeRating = Math.max(0, Math.min(5, Math.round(rating || 0)));
+  return Array.from({ length: 5 }, (_, index) => index < safeRating);
+};
+
+const formatRelativeTime = (relativeText) => {
+  if (!relativeText) return '';
+  return relativeText.replace(' ago', '');
+};
+
+const Carousel = () => {
+  const [reviews, setReviews] = useState([]);
+  const [status, setStatus] = useState('loading');
+
+  useEffect(() => {
+    fetch('/api/reviews')
+      .then((res) => res.json())
+      .then((data) => {
+        const safeData = Array.isArray(data) ? data : [];
+        setReviews(safeData);
+        setStatus('ready');
+      })
+      .catch(() => {
+        setStatus('error');
+      });
+  }, []);
+
+  const slides = useMemo(() => {
+    if (reviews.length > 0) return reviews;
+    if (status === 'ready') return [];
+    return [];
+  }, [reviews, status]);
+
+  return (
+    <section className="google-reviews-section">
+      <div className="google-reviews-header">
+        <div className="google-reviews-title">
+          <span className="google-gmark">G</span>
+          <div>
+            <h2>Google Reviews</h2>
+            <p>What customers are saying</p>
+          </div>
+        </div>
+        <a
+          className="google-reviews-link"
+          href="https://www.google.com/maps"
+          target="_blank"
+          rel="noreferrer"
+        >
+          View on Google
+        </a>
+      </div>
+
+      {status === 'loading' && (
+        <div className="google-reviews-state">Loading reviews...</div>
+      )}
+      {status === 'error' && (
+        <div className="google-reviews-state">
+          Could not load reviews right now.
+        </div>
+      )}
+
+      {slides.length > 0 && (
+        <Swiper
+          className="google-reviews-carousel"
+          modules={[Autoplay, Pagination]}
+          loop={slides.length > 1}
+          autoplay={{ delay: 5500, disableOnInteraction: false }}
+          pagination={{ clickable: true }}
+          spaceBetween={24}
+          breakpoints={{
+            320: { slidesPerView: 1 },
+            900: { slidesPerView: 2 },
+          }}
+        >
+          {slides.map((review, index) => {
+            const stars = buildStars(review.rating);
+            const initials = (review.author_name || 'G')
+              .split(' ')
+              .map((part) => part[0])
+              .join('')
+              .slice(0, 2)
+              .toUpperCase();
+
+            return (
+              <SwiperSlide key={`${review.author_name || 'review'}-${index}`}>
+                <article className="google-review-card">
+                  <header className="google-review-meta">
+                    <div className="google-review-avatar" aria-hidden="true">
+                      {initials}
+                    </div>
+                    <div>
+                      <div className="google-review-author">
+                        {review.author_name || 'Google User'}
+                      </div>
+                      <div className="google-review-sub">
+                        <span className="google-review-time">
+                          {formatRelativeTime(review.relative_time_description)}
+                        </span>
+                        <span className="google-review-dot">•</span>
+                        <span className="google-review-source">Google</span>
+                      </div>
+                    </div>
+                  </header>
+
+                  <div className="google-review-stars">
+                    {stars.map((filled, starIndex) => (
+                      <span
+                        key={starIndex}
+                        className={filled ? 'star star-filled' : 'star'}
+                      >
+                        ★
+                      </span>
+                    ))}
+                  </div>
+
+                  <p className="google-review-text">
+                    {review.text || 'Great experience!'}
+                  </p>
+                </article>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      )}
+    </section>
+  );
+};
+
+export default Carousel;
